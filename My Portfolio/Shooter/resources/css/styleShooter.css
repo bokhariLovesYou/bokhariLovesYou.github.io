@@ -1,0 +1,159 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: grey;
+  font-family: helvetica;
+}
+
+#wrapper {
+  position: relative;
+  height: 90vh;
+  width: 80%;
+  left: 10%;
+  margin-top: 20px;
+  background-color: skyblue;
+  overflow: hidden;
+  border-radius: 5px;
+  max-width: 340px;
+/*  width: 1000px;*/
+/*  height: 1000px;*/
+}
+
+.cloud, #cloud_1 {
+  position: absolute;
+  margin-left: 48%;
+  background-color: #fff;
+  background: url("file:///Users/haanibokhari/Desktop/ALL%20OF%20MY%20APPS/My%20Portfolio/Shooter/images/cloud.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 100px;
+  opacity: 0.9;
+}
+
+#cloud_2 {
+  top: 100px;
+  left: -150px;
+}
+
+#cloud_3 {
+  top: 200px;
+  left: 60px;
+}
+
+#cloud_4 {
+  top: 320px;
+  left: -100px;
+}
+
+#shuttle {
+  position: absolute;
+  height: 120px;
+  width: 120px;
+  bottom: 3%;
+  left: 60%;
+  background: url("file:///Users/haanibokhari/Desktop/ALL%20OF%20MY%20APPS/My%20Portfolio/Shooter/images/space-shuttle.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.monster, #monster_1 {
+  position: absolute;
+  height: 100px;
+  width: 50px;
+  background: url("file:///Users/haanibokhari/Desktop/ALL%20OF%20MY%20APPS/My%20Portfolio/Shooter/images/monster_shuttle.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#monster_1 {
+  top: -290px;
+}
+
+#monster_2 {
+  top: -400px;
+  left: 50px;
+}
+
+#monster_3 {
+  top: -120px;
+  left: 200px;
+}
+
+#monster_4 {
+  top: -600px;
+  left: 130px;
+}
+
+#monster_5 {
+  top: -300px;
+  left: 150px;
+}
+
+#fire {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  bottom: 20%;
+  left: 68%;
+  background-color: #fff;
+  border: 3px dotted green;
+  opacity: 0;
+/*  border: solid 1px red;*/
+}
+
+#restart_div {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #292929;
+  color: white;
+  font-family: helvetica;
+  font-size: 40px;
+  text-align: center;
+  display: none;
+}
+
+#restart {
+  border: none;
+  padding: 25px;
+  color: white;
+  background-color: #8a64ff;
+  font-size: 20px;
+  margin-top: 30%;
+  border-radius: 20px;
+}
+.animateUp {
+  margin-bottom: 500px;
+  transition: 0.5s ease;
+}
+
+.class_1 {
+  margin-left: 500px;
+/*  bottom: 1000px*/;
+  transition: 0.1s;
+}
+
+#score_div {
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+  font-size: 20px;
+  color: #fff;
+  font-family: helvetica;
+  padding: 10px;
+  background-color: orange;
+  border-radius: 10px;
+}
+
+
+#score {
+  color: blue;
+}
+
+
+.none {
+  display: none;
+}

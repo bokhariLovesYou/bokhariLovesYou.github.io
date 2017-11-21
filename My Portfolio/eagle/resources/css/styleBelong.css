@@ -1,0 +1,677 @@
+body {
+/*  background-color: #000;
+  background: url("http://piradosbrand.com/wp-content/uploads/2016/08/DSCF1614-160807p1200.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  background-position-x: 45%;
+  background-position-y: 40%;
+  background-color: #000;
+  background-clip: 300px;*/
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+/*  margin: 0px;
+  padding: 0px;*/
+  overflow-x: hidden;
+}
+
+.mobile-nav ul li a,
+.mobile-nav ul li a:link,
+.mobile-nav ul li a:active {
+  text-decoration: none !important;
+  color: #fff;
+}
+
+.mobile-nav ul li a:hover {
+  color: ddd;
+  text-decoration: none !important;
+}
+
+.mobile-nav ul li a:visited {
+  text-decoration: none !important;
+  color: #fff;
+}
+
+
+.mobile-nav .why a {
+  text-decoration: none !important;
+  color: #fff;
+}
+
+
+.mobile-nav ul li a .nav-link12 {
+  color: skyblue !important;
+}
+
+
+.bg-main {
+/*  background: url("file:///Users/haanibokhari/Desktop/ALL%20OF%20MY%20APPS/My%20Portfolio/Billy!/images/coverbilly2.jpg");*/
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-size: cover;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-color: initial;
+  background-clip: initial;
+/*  height: 1000px;*/
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  background-repeat: no-repeat;
+  height: 715px;
+  width: 100%;
+  overflow-x: hidden;
+/*  transition: background 5s ease;*/
+/*  position: fixed;*/
+/*  background-position-x: center;
+  background-position-y: center;*/
+}
+
+.bg-main-belong {
+  background: url("file:///Users/haanibokhari/Desktop/ALL%20OF%20MY%20APPS/My%20Portfolio/Billy!/images/belong.jpg");
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-size: cover;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-color: initial;
+  background-clip: initial;
+/*  height: 1000px;*/
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  background-repeat: no-repeat;
+  height: 715px;
+  width: 100%;
+  overflow-x: hidden;
+/*  transition: background 5s ease;*/
+/*  position: fixed;*/
+/*  background-position-x: center;
+  background-position-y: center;*/
+}
+
+p {
+  font-size: 10px;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.belongParaMenu {
+background-color: skyblue;
+opacity: 0.5;
+display: inline-block;
+}
+
+.paraRight {
+  position: relative;
+  left: 370px;
+  top: 250px;
+  transition: 0.2s ease;
+}
+
+.billyLogo {
+  /*  width: 150px;
+    height: 210px;*/
+  width: 120px;
+  object-fit: cover;
+  background-color: transparent;
+  cursor: pointer;
+  position: relative;
+  padding: 0px;
+  display: inline;
+  margin: 10px 10px;
+
+}
+
+.backgroundPicture {
+  width: 910px;
+  height: 685px;
+  object-fit: cover;
+  vertical-align: baseline;
+  background: transparent;
+  filter: grayscale();
+  filter: invert();
+}
+
+.logo {
+  display: inline-block;
+}
+
+.wrapper-3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  width: 550px;
+  transform: translate(-50%, -50%);
+}
+
+.wrapper-2 {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  width: 550px;
+  transform: translate(-50%, -50%);
+}
+
+.search {
+  position: fixed;
+  bottom: 312px;
+  left: 180px;
+  cursor: pointer;
+}
+
+.navbar {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: absolute;
+  bottom: 265px;
+  left: 200px;
+}
+
+.navbar div {
+  height: 2px;
+  padding: 0;
+  line-height: 0px;
+  width: 20px;
+  background-color: #fff;
+  position: absolute;
+  transition: all 0.5s ease;
+  border-radius: 20px;
+}
+
+.navbar .first {
+  top: 40px;
+  left: 20px;
+}
+
+.navbar .second {
+  top: 45px;
+  left: 20px;
+}
+
+.navbar .third {
+  top: 50px;
+  left: 20px;
+}
+
+
+.hamburger-1 {
+  transform: translateY(1px) rotate(40deg);
+  transition: all 0.1s;
+}
+
+.hamburger-2 {
+  opacity: 0;
+  transition: all 0.1s;
+}
+
+.hamburger-3 {
+  transform: translateY(-10px) rotate(-40deg);
+  transition: all 0.1s ease;
+}
+
+
+.mobile-nav {
+    background: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    color: #000;
+    transition: 0.5s;
+    display: none;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s !important;
+  -ms-transition-animation-duration: 1s
+  -webkit-animation-duration: 1s !important;
+-moz-animation-duration: 1 !important;
+}
+
+
+.search-modal {
+  position: fixed;
+  width:100%;
+  height: 100%;
+  top: 0;
+  color: #000;
+  transition: 0.5s;
+  background-color: rgba(0,0,0,0.8);
+  display: none;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #fff;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #fff;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #fff;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #fff;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #fff;
+}
+
+.search-2 {
+  position: fixed;
+  top: 50%;
+  left: 140px;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.cross {
+  position: fixed;
+  top: 50%;
+  left: 178px;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.place-holder {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-family: "Futura", helvetica;
+  text-transform: uppercase;
+  background: transparent;
+  text-decoration-line: solid 2px;
+  color: #fff;
+  border: 0 none;
+  border-bottom: 5px solid #fff;
+  opacity: 1 !important;
+
+}
+input {
+  opacity: 1 !important;
+}
+
+textarea:focus, input:focus {
+  outline: none;
+  opacity: 1 !important;
+}
+
+input[type="text"],
+textarea {
+  margin-right: 100px;
+}
+
+.colorText {
+  color: red !important;
+  text-decoration: none !important;
+  opacity: 0.5;
+}
+
+
+.fadeIn {
+  display: block;
+}
+
+
+.displayNone {
+  display: none;
+}
+
+.slideInDown {
+  display: block;
+  -webkit-animation-name: slideInDown;
+  animation-name: slideInDown;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s !important;
+  -ms-transition-animation-duration: 1s !important;
+  -webkit-animation-duration: 1s !important;
+-moz-animation-duration: 1;
+}
+
+.animated {
+  animation-duration: 1s !important;
+  animation-fill-mode: both !important;
+}
+
+.slideOutUp {
+}
+
+
+
+.mobile-nav ul {
+  transition: all 0.2s;
+/*  display: none;*/
+}
+
+.mobile-nav li {
+  color: #fff;
+  margin: 33px 0px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  list-style: none;
+  line-height: 0px;
+/*  font-size: 34px;*/
+  font-size: 27px;
+  font-weight: 200;
+  font-family: "futura", helvetica;
+  position: relative;
+  top: 100px;
+  margin-left: -15px;
+  padding-top: 0px;
+/*  display: none;*/
+}
+
+.mobile-nav li:nth-child(5) {
+  color: skyblue !important;
+}
+
+.mobile-nav li:hover {
+  opacity: 0.9;
+  transition: 0s;
+}
+
+.why {
+  position: fixed;
+  top: 450px;
+  bottom: 0;
+  right: 0;
+  left: 60px;
+  font-family: "Futura";
+  font-size: 15px;
+  cursor: pointer;
+  color: #fff !important;
+  text-decoration: none !important;
+/*  display: none;*/
+}
+
+hr {
+  background-color: #fff;
+  position: fixed;
+  width: 50%;
+  height: 4px;
+  top: 350px;
+  right: 170px;
+/*  display: none;*/
+}
+
+.active {
+  left: 0;
+  transition: all 0.2s;
+}
+
+/*.navbar:hover {
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.navbar:hover .first {
+  transform: translateY(5px) rotate(40deg);
+  transition: all 0.2s ease;
+}
+
+.navbar:hover .second {
+  opacity: 0;
+  transition: all 0.2s ease;
+}
+
+.navbar:hover .third {
+  transform: translateY(-20px) rotate(-45deg);
+  transition: all 0.5s ease;
+}
+
+.navbar:hover {
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}*/
+
+.love {
+  letter-spacing: 5px;
+  font-size: 12px;
+  margin-top: 50px;
+}
+
+.nyc {
+  letter-spacing: 5px;
+  position: relative;
+  bottom: 12px;
+  width: 15%;
+  margin: 0 auto;
+  background-color: skyblue;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.red-border {
+  background-color: skyblue;
+  height: 20px;
+  width: 100%;
+  opacity: 0.7;
+  margin-top: 178px;
+  cursor: pointer;
+  display: none;
+}
+
+.red {
+  background-color: red;
+  transition: 0.3s ease;
+  opacity: 0.5;
+}
+
+.animateLogo {
+  margin-left: 140px;
+  transition: 0.2s ease;
+}
+
+.skyblue {
+  background-color: skyblue;
+  opacity: 0.7;
+  transition: 0.2s ease;
+}
+
+.footer {
+  width: 100%;
+  color: #000;
+  margin-top: 25px;
+}
+
+.nav-link,
+.nav-item {
+  letter-spacing: 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+i {
+  color: #000;
+  width: 50px;
+}
+
+i:hover {
+  color: rgba(0,0,0,0.8);
+  transition: 0.1s ease;
+  cursor: pointer;
+  color: skyblue;
+}
+
+.nav-item1 {
+  padding: 3px;
+  font-size: 13px;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.nav-item1 a:hover {
+  color: skyblue;
+  opacity: 0.8;
+}
+
+.nav-item1:last-child {
+  margin-bottom: 10px;
+}
+
+.nav-item1 a {
+  color: rgba(0,0,0,0.5);
+  text-decoration: none;
+}
+
+.wtf {
+  display: none;
+}
+
+.wrapper-4 {
+  opacity: 0;
+}
+
+.nav-link12 {
+  color: skyblue !important;
+}
+
+/*Media Queries*/
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+  .billyLogo {
+    width: 256px;
+    margin-left: 45px;
+    margin-top: 30px;
+/*    height: 103px;*/
+  }
+
+.mobile-nav {
+    background: rgba(0,0,0,0.8);
+    width: 55%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+/*    left: 40px;*/
+    color: #000;
+    transition: 0.5s;
+    display: none;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s !important;
+  -ms-transition-animation-duration: 1s
+  -webkit-animation-duration: 1s !important;
+-moz-animation-duration: 1 !important;
+}
+
+.mobile-nav li {
+  color: #fff;
+  margin: 33px 0px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  list-style: none;
+  line-height: 0px;
+/*  font-size: 34px;*/
+  font-size: 27px;
+  font-weight: 200;
+  font-family: "futura", helvetica;
+  position: relative;
+  top: 230px;
+  left: 20px;
+  margin-left: -15px;
+  padding-top: 0px;
+/*  display: none;*/
+}
+
+.animateLogo {
+  margin-left: 400px;
+  left: 100px;
+  transition: 0.5s ease;
+}
+
+
+.slideInDown {
+  display: block;
+}
+
+
+.nyc {
+  top: 50px;
+}
+
+.love {
+  position: relative;
+  top: 55px;
+  bottom: 0;
+  left: 5px;
+  right: 0;
+}
+
+.mobile-nav li {
+  font-size: 50px;
+  padding: 5px;
+}
+
+.mobile-nav li:hover {
+  color: #ddd;
+}
+
+
+hr {
+  display: none;
+}
+
+.why {
+  position: absolute;
+  opacity: 1;
+  left: 500px;
+  bottom: 700px;
+  top: 300px;
+}
+
+.nyc-2 {
+  position: fixed;
+  bottom: 0px;
+  top: 50%;
+  background-color: skyblue;
+  cursor: pointer;
+  opacity: 0 !important;
+}
+
+.wrapper-4 {
+  position: absolute;
+  top: 27px;
+  right: 20px;
+  cursor: pointer;
+  opacity: 0 !important;
+}
+
+.navbar {
+  display: block;
+}
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+
+@media (min-width: 1200px) {
+
+}

@@ -166,7 +166,7 @@ height: 100%;
 .wrapper {
   height: 100vh;
   width: 100%;
-  background: url("file:///Users/haanibokhari/Desktop/github2/resources/gitHubImages/Attachment-1.jpeg");
+  background: url("../gitHubImages/Attachment-1.jpeg");
   background-position-x: 50%;
   background-position-y: 50%;
   background-size: cover;

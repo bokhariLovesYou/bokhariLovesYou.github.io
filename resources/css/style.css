@@ -2,6 +2,16 @@ html {
   overflow-x: hidden;
 }
 
+.reels:hover {
+  border-radius: 2% !important;
+}
+
+.reelOne:hover,
+.reelTwo:hover,
+.reelThree:hover,
+.reelFour:hover {
+  border-radius: 2% !important;
+}
 
 body {
 /*  border: 2px dotted teal;*/
@@ -1809,7 +1819,11 @@ background-color: transparent;
 
 /*MEDIA QUERIES*/
 
-@media (max-width: 363px) {
+@media (max-width: 330px) {
+
+  .pS {
+    left: 0;
+  }
 
   .psbLogo {
     height: 130px !important;

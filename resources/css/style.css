@@ -8,7 +8,7 @@ body {
 overflow-x: hidden;
 width: 100%;
 height: 100%;
-position: relative;
+/*position: relative;*/
 }
 
 .reelButton {
@@ -166,7 +166,7 @@ position: relative;
 .wrapper {
   height: 100vh;
   width: 100%;
-  background: url("file:///Users/haanibokhari/Downloads/Attachment-1.jpeg");
+  background: url("file:///Users/haanibokhari/Desktop/github2/resources/gitHubImages/Attachment-1.jpeg");
   background-position-x: 50%;
   background-position-y: 50%;
   background-size: cover;
@@ -261,9 +261,10 @@ ul li {
   position: absolute;
   position: fixed;
   z-index: 2;
-  top: 50%;
+  top: 3%;
   left: 100%;
   width: 550px;
+/*  height: 100vh;*/
   transform: translate(-50%, -50%);
 }
 
@@ -273,7 +274,7 @@ ul li {
   cursor: pointer;
   transition: all 0.3s ease;
   position: absolute;
-  bottom: 300px;
+/*  bottom: 90%;*/
   left: 220px;
   background-color: skyblue;
   border-radius: 100%;
@@ -353,7 +354,7 @@ ul li {
 .text_2_div {
   position: relative;
   left: 0px;
-  top: 300px;
+  top: 40%;
 }
 
 .text_2 {
@@ -2219,14 +2220,13 @@ background-color: transparent;
   .nav_large {
     position: absolute;
     right: 0px;
-    bottom: 230px;
+    bottom: 33%;
     display: block;
   }
 
   #list_large {
     position: relative;
     right: 0;
-    bottom: 0;
   }
 
   .nav_large_text {

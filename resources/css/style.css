@@ -39,7 +39,7 @@ height: 100%;
   padding: 20px;
   cursor: pointer;
   transition: 0.2s ease;
-  font-size: 72px;
+/*  font-size: 72px;*/
   opacity: 0;
   -webkit-appearance: none;
 }
@@ -88,6 +88,7 @@ height: 100%;
   background-size: cover;
   background-position-x: 50%;
   background-position-y: 90%;
+
 }
 
 .back_to_top {
@@ -1235,67 +1236,67 @@ text-align: center;
 
 
 .grid1 {
-  background-image: url(file:///Users/haanibokhari/Desktop/gallery/3.webp);
+  background-image: url(../imgMedia/3.webp);
   grid-area: 11 / 1 / 17 / 5;
 }
 
 .grid2 {
-  background-image: url(file:///Users/haanibokhari/Desktop/gallery/2.webp);
+  background-image: url(../imgMedia/2.webp);
   grid-area: 22 / 6 / 28 / 10;
 }
 
 .grid3 {
-  background-image: url(file:///Users/haanibokhari/Desktop/gallery/1.webp);
+  background-image: url(../imgMedia/1.webp);
   grid-area: 8 / 5 / 22 / 15;
 }
 
 .grid4 {
-  background-image: url(file:///Users/haanibokhari/Desktop/gallery/4.webp);
+  background-image: url(../imgMedia/4.webp);
   grid-area: 22 / 10 / 29 / 15;
 }
 
 .grid5 {
-  background-image: url(file:///Users/haanibokhari/Desktop/gallery/5.webp);
+  background-image: url(../imgMedia/5.webp);
   grid-area: 1 / 11 / 8 / 15;
 }
 
 .grid6 {
-  background-image: url(file:///Users/haanibokhari/Desktop/gallery/6.webp);
+  background-image: url(../imgMedia/6.webp);
   grid-area: 17 / 15 / 24 / 20;
 }
 
 .grid7 {
-  background-image: url(file:///Users/haanibokhari/Desktop/gallery/7.webp);
+  background-image: url(../imgMedia/7.webp);
   grid-area: 9 / 15 / 17 / 23;
 }
 
 .grid8 {
-  background-image: url(file:///Users/haanibokhari/Desktop/gallery/8.webp);
+  background-image: url(../imgMedia/8.webp);
   grid-area: 2 / 18 / 9 / 23;
 }
 
 .grid9 {
-  background-image: url(file:///Users/haanibokhari/Desktop/gallery/16.webp);
+  background-image: url(../imgMedia/16.webp);
   grid-area: 17 / 20 / 22 / 26;
 }
 
 .grid10 {
-  background-image: url(file:///Users/haanibokhari/Desktop/gallery/10.webp);
+  background-image: url(../imgMedia/10.webp);
   grid-area: 22 / 20 / 28 / 23;
 }
 
 .grid11 {
-  background-image: url(file:///Users/haanibokhari/Desktop/gallery/11.webp);
+  background-image: url(../imgMedia/11.webp);
   grid-area: 4 / 23 / 11 / 27;
 }
 
 .grid12 {
-  background-image: url(file:///Users/haanibokhari/Desktop/gallery/12.webp);
+  background-image: url(../imgMedia/12.webp);
   grid-area: 11 / 23 / 17 / 30;
 }
 
 .grid13 {
-  background-image: url(file:///Users/haanibokhari/Desktop/gallery/15.webp);
+  background-image: url(../imgMedia/15.webp);
   grid-area: 17 / 26 / 22 / 28;
 }
 

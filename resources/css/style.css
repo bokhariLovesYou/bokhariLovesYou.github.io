@@ -67,13 +67,13 @@ height: 100%;
 }
 
 #work {
-  background-image: url("file:///Users/haanibokhari/Downloads/whitenoise.jpg");
+  background-image: url("../gitHubImages/whitenoise.jpg");
   background-size: cover;
   background-position: 50% 50%;
 }
 
 #about {
-  background-image: url("file:///Users/haanibokhari/Downloads/eyes.jpg");
+  background-image: url("../gitHubImages/eyes.jpg");
   background-size: cover;
   background-position-x: 50%;
   background-position-y: 90%;
@@ -779,7 +779,7 @@ text-align: center;
 
 .reelOne {
   background-color: #EEE;
-  background-image: url("file:///Users/haanibokhari/Desktop/reelOne.jpg");
+  background-image: url("../gitHubImages/reelOne.jpg");
 /*  background-size: 40%;*/
   background-size: cover;
   background-repeat: no-repeat;
@@ -797,7 +797,7 @@ text-align: center;
   -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
    animation-direction: alternate;
    cursor: pointer;
-   background-image: url("file:///Users/haanibokhari/Desktop/reelOne.jpg");
+   background-image: url("../gitHubImages/reelOne.jpg");
    background-size: cover;
    background-repeat: no-repeat;
    background-position: 80% 95%;
@@ -809,7 +809,7 @@ text-align: center;
 
 .reelTwo {
   background-color: #EEE;
-  background-image: url("file:///Users/haanibokhari/Desktop/reelTwo.jpg");
+  background-image: url("../gitHubImages/reelTwo.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 10% 10%;
@@ -826,7 +826,7 @@ text-align: center;
    animation-direction: alternate;
    cursor: pointer;
    color: #eee;
-   background-image: url("file:///Users/haanibokhari/Desktop/reelTwo.jpg");
+   background-image: url("../gitHubImages/reelTwo.jpg");
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -838,7 +838,7 @@ text-align: center;
 
 .reelThree {
   background-color: #EEE;
-  background-image: url("file:///Users/haanibokhari/Desktop/reelThree.jpg");
+  background-image: url("../gitHubImages/reelThree.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 10% 0%;
@@ -854,7 +854,7 @@ text-align: center;
    animation-direction: alternate;
    cursor: pointer;
    color: #eee;
-   background-image: url("file:///Users/haanibokhari/Desktop/reelThree.jpg");
+   background-image: url("../gitHubImages/reelThree.jpg");
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -867,7 +867,7 @@ text-align: center;
 
 .reelFour {
   background-color: #EEE;
-  background-image: url("file:///Users/haanibokhari/Desktop/reelFour.jpg");
+  background-image: url("../gitHubImages/reelFour.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 40% 10%;
@@ -883,7 +883,7 @@ text-align: center;
    animation-direction: alternate;
    cursor: pointer;
    color: #eee;
-   background-image: url("file:///Users/haanibokhari/Desktop/reelFour.jpg");
+   background-image: url("../gitHubImages/reelFour.jpg");
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -2168,7 +2168,7 @@ background-color: transparent;
 
 
 #about {
-  background-image: url("file:///Users/haanibokhari/Downloads/aboutPicture6.jpg");
+  background-image: url("../gitHubImages/aboutPicture6.jpg");
   background-position-x: 0;
   background-attachment: fixed;
 }
@@ -2290,12 +2290,12 @@ background-color: transparent;
 
 .musicBG {
   background-color: #e0cfbf !important;
-  background-image: url("file:///Users/haanibokhari/Desktop/bgAudio.jpg") !important;
+  background-image: url("../gitHubImages/bgAudio.jpg") !important;
   background-position: cover !important;
   background-size: 600px !important;
   background-position-y: 100% !important;
   background-repeat: no-repeat !important;
-  background-image: url("file:///Users/haanibokhari/Desktop/bgAudio.jpg"), linear-gradient(to right, rgba(255, 195, 160, 1), rgba(255, 175, 189, 1)) !important;
+  background-image: url("../gitHubImages/bgAudio.jpg"), linear-gradient(to right, rgba(255, 195, 160, 1), rgba(255, 175, 189, 1)) !important;
 }
 
 .audioText {

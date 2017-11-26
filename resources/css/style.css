@@ -1,6 +1,38 @@
 html {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
+
+#center_film_img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+/*  align-items: ;*/
+/*  top: 50% !important;*/
+/*  left: 50%;*/
+  transform: translate(-3%, 0%);
+/*  width: 100%;*/
+}
+
+.prev,
+.next {
+  display: none !important;
+}
+
+.film {
+  height: 120vh !important;
+
+}
+
+.pS_1 {
+  padding-bottom: 20px;
+/*  width: 100vh;*/
+}
+
+.filmPara {
+  padding: 20px !important;
+  margin-top: 5px !important;
+}
+
 
 .reels:hover {
   border-radius: 2% !important;
@@ -1877,6 +1909,10 @@ background-color: transparent;
     font-size: 90px;
   }
 
+.main-title {
+  top: 30%;
+}
+
 }
 
 
@@ -1886,6 +1922,13 @@ background-color: transparent;
     font-size: 85px;
   }
 
+  .main-title {
+    top: 40%;
+  }
+
+#demo-canvas {
+  display: none;
+}
 
 }
 

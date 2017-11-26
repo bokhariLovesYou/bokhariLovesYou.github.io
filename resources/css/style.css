@@ -2,14 +2,18 @@ html {
   overflow-x: hidden !important;
 }
 
+.cycle-slide {
+  z-index: 1 !important;
+}
+
 #center_film_img {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
 /*  align-items: ;*/
 /*  top: 50% !important;*/
 /*  left: 50%;*/
-  transform: translate(-3%, 0%);
+/*  transform: translate(0%, 0%);*/
 /*  width: 100%;*/
 }
 
@@ -18,13 +22,17 @@ html {
   display: none !important;
 }
 
-.film {
-  height: 120vh !important;
+.filmPara {
+  transform: translate(-3%, 40%);
+}
 
+.film {
+  height: 120vh;
 }
 
 .pS_1 {
-  padding-bottom: 20px;
+/*    transform: translate(-7%, 0%);*/
+/*  padding-bottom: 100px;*/
 /*  width: 100vh;*/
 }
 
@@ -1086,11 +1094,11 @@ text-align: center;
 
 .film_size {
   display: block;
-  top: 0;
+/*  top: 0;
   right: 0;
   bottom: 0;
-  left: 20px;
-  margin: 0 auto;
+  left: 0;
+  margin: 0 auto;*/
   width: auto;
   image-rendering: pixelated;
   background-repeat: no-repeat;
@@ -1553,6 +1561,8 @@ button.mfp-arrow-right {
   z-index: 1;
   background-position: cover;
   opacity: 1;
+/*  padding-left: 20px;*/
+/*  margin-left: 30px;*/
 /*  border-radius: 100%;*/
 }
 
@@ -1581,6 +1591,7 @@ input#volume::-webkit-slider-thumb {
   background: url('../imgMedia/knob.png') no-repeat;
   height: 12px;
   width: 12px;
+  filter: sepia();
 }
 
 #audio-buttons {
@@ -1601,6 +1612,7 @@ button#play {
   cursor: pointer;
   margin-left: -2px;
   border: none;
+  filter: sepia();
 /*  background-size: 70px 70px;*/
 }
 
@@ -1614,6 +1626,7 @@ button#pause {
   cursor: pointer;
   margin-left: -2px;
   border: none;
+  filter: sepia();
 /*  background-size: 50px 50px;*/
 }
 
@@ -1628,6 +1641,8 @@ button#stop {
   float: left;
   cursor: pointer;
   border: none;
+  filter: invert();
+  filter: sepia();
 }
 
 button#prevAudio {
@@ -1644,6 +1659,7 @@ button#prevAudio {
   background-size: 50px 50px;
   filter: invert(50%);
   border: none;
+  filter: sepia();
 }
 
 button#nextAudio {
@@ -1659,6 +1675,7 @@ button#nextAudio {
   background-size: 50px 50px;
   filter: invert(50%);
   border: none;
+  filter: sepia();
 /*  margin-left: 30px;*/
 /*  margin-bottom: -13px;*/
 }
@@ -1673,13 +1690,17 @@ button#nextAudio {
   margin: 5px;
 }
 
+
 #playlist li.active {
 /*  font-weight: bold;*/
   padding: 3px;
-  background: #666;
-  border-radius: 5px;
+  background: #000;
+  border-radius: 10px;
   color: #eee;
   letter-spacing: 1px;
+  padding: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 #progressbar {
@@ -1690,6 +1711,7 @@ button#nextAudio {
   height: 10px;
   background: url(../imgMedia/progress_bg.png) no-repeat;
   float: left;
+  filter: sepia();
 }
 
 #progress {
@@ -1704,12 +1726,13 @@ button#nextAudio {
 #duration {
   position: absolute;
   top: 0;
-  right: 10px;
+  right: 20px;
   padding: 4px 8px;
   background: #eee;
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
+  filter: sepia();
 }
 
 #tracker {
@@ -1727,6 +1750,7 @@ button#nextAudio {
   background: -o-linear-gradient(left, #ffc3a0, #FFAFBD) rgba(0,0,0,0.5);
   background: linear-gradient(to right, #ffc3a0, #FFAFBD) rgba(0,0,0,0.5);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border: 5px dotted #fff;
+
 /*  background-image: url("file:///Users/haanibokhari/Desktop/bgAudio.jpg");
   background-position: cover;
   background-color: #ddd;
@@ -1758,7 +1782,7 @@ button#nextAudio {
   text-transform: uppercase;
   line-height: 0.8;
   font-family: 'Kanit', sans-serif;
-  font-size: 2.5vh;
+  font-size: 4.5vh;
   text-transform: uppercase;
   text-align: center;
   color: rgba(0,0,0,0.7);
@@ -1803,9 +1827,12 @@ text-decoration: none;
 background-color: transparent;
 }
 
+.cloudImg {
+  transition: all 0.2s ease;
+}
 
 .cloudImg:hover {
-  height: 60px;
+/*  height: 60px;*/
   transition: all 0.2s ease;
   filter: invert();
 }
@@ -1854,8 +1881,18 @@ background-color: transparent;
 
 @media (max-width: 330px) {
 
-  .pS {
+.cover {
+  margin-left: 30px;
+}
+
+
+  .pS_1 {
     left: 0;
+    transform: translate(-7%, 0%);*
+  }
+
+  .film {
+    height: 140vh;
   }
 
   .psbLogo {
@@ -2394,7 +2431,7 @@ background-color: transparent;
 }
 
 .cloudImg:hover {
-  height: 50px !important;
+/*  height: 50px !important;*/
 }
 
 #player {

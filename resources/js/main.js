@@ -248,7 +248,7 @@ $("body").swipe({
     audio.currentTime = 0;
     $('#pause').hide();
     $('#play').show();
-    $('#duration').fadeOut(400);
+    // $('#duration').fadeOut(400);
   });
 
   // Next Button

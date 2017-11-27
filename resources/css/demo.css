@@ -339,19 +339,19 @@ a:focus {
 }
 
 /* Layout 1 */
-.grid--layout-1 .grid__item:first-child { grid-area: 11 / 1 / 17 / 5; background-image: url(../gitHubImages/3.webp);}
-.grid--layout-1 .grid__item:nth-child(2) { grid-area: 22 / 6 / 28 / 10; background-image: url(../gitHubImages/2.webp); }
-.grid--layout-1 .grid__item:nth-child(3) { grid-area: 8 / 5 / 22 / 15; background-image: url(../gitHubImages/1.webp); }
-.grid--layout-1 .grid__item:nth-child(4) { grid-area: 22 / 10 / 29 / 15; background-image: url(../gitHubImages/4.webp); }
-.grid--layout-1 .grid__item:nth-child(5) { grid-area: 1 / 11 / 8 / 15; background-image: url(../gitHubImages/5.webp); }
-.grid--layout-1 .grid__item:nth-child(6) { grid-area: 17 / 15 / 24 / 20; background-image: url(../gitHubImages/6.webp); }
-.grid--layout-1 .grid__item:nth-child(7) { grid-area: 9 / 15 / 17 / 23; background-image: url(../gitHubImages/7.webp); }
-.grid--layout-1 .grid__item:nth-child(8) { grid-area: 2 / 18 / 9 / 23; background-image: url(../gitHubImages/8.webp); }
-.grid--layout-1 .grid__item:nth-child(9) { grid-area: 17 / 20 / 22 / 26; background-image: url(../gitHubImages/16.webp); }
-.grid--layout-1 .grid__item:nth-child(10) { grid-area: 22 / 20 / 28 / 23; background-image: url(../gitHubImages/10.webp); }
-.grid--layout-1 .grid__item:nth-child(11) { grid-area: 4 / 23 / 11 / 27; background-image: url(../gitHubImages/11.webp); }
-.grid--layout-1 .grid__item:nth-child(12) { grid-area: 11 / 23 / 17	/ 30; background-image: url(../gitHubImages/12.webp); }
-.grid--layout-1 .grid__item:nth-child(13) { grid-area: 17 / 26 / 22 / 28; background-image: url(../gitHubImages/15.webp); }
+.grid--layout-1 .grid__item:first-child { grid-area: 11 / 1 / 17 / 5; background-image: url(../gitHubImages/3.jpg);}
+.grid--layout-1 .grid__item:nth-child(2) { grid-area: 22 / 6 / 28 / 10; background-image: url(../gitHubImages/2.jpg); }
+.grid--layout-1 .grid__item:nth-child(3) { grid-area: 8 / 5 / 22 / 15; background-image: url(../gitHubImages/1.jpg); }
+.grid--layout-1 .grid__item:nth-child(4) { grid-area: 22 / 10 / 29 / 15; background-image: url(../gitHubImages/4.jpg); }
+.grid--layout-1 .grid__item:nth-child(5) { grid-area: 1 / 11 / 8 / 15; background-image: url(../gitHubImages/5.jpg); }
+.grid--layout-1 .grid__item:nth-child(6) { grid-area: 17 / 15 / 24 / 20; background-image: url(../gitHubImages/6.jpg); }
+.grid--layout-1 .grid__item:nth-child(7) { grid-area: 9 / 15 / 17 / 23; background-image: url(../gitHubImages/7.jpg); }
+.grid--layout-1 .grid__item:nth-child(8) { grid-area: 2 / 18 / 9 / 23; background-image: url(../gitHubImages/17.jpg); }
+.grid--layout-1 .grid__item:nth-child(9) { grid-area: 17 / 20 / 22 / 26; background-image: url(../gitHubImages/16.jpg); }
+.grid--layout-1 .grid__item:nth-child(10) { grid-area: 22 / 20 / 28 / 23; background-image: url(../gitHubImages/10.jpg); }
+.grid--layout-1 .grid__item:nth-child(11) { grid-area: 4 / 23 / 11 / 27; background-image: url(../gitHubImages/11.jpg); }
+.grid--layout-1 .grid__item:nth-child(12) { grid-area: 11 / 23 / 17	/ 30; background-image: url(../gitHubImages/12.jpg); }
+.grid--layout-1 .grid__item:nth-child(13) { grid-area: 17 / 26 / 22 / 28; background-image: url(../gitHubImages/15.jpg); }
 .grid--layout-1 .grid__item--name { grid-area: 3 / 12 / 30 / 25; }
 .grid--layout-1 .grid__item--title { grid-area: 1 / 27 / 11 / 29; }
 .grid--layout-1 .grid__item--text { grid-area: 22 / 23 / 30 / 26; }

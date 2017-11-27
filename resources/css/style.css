@@ -1946,6 +1946,10 @@ background-color: transparent;
     font-size: 90px;
   }
 
+  .film {
+    height: 150vh !important;
+  }
+
 .main-title {
   top: 30%;
 }

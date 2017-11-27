@@ -219,7 +219,7 @@ height: 100%;
 .wrapper {
   height: 100vh;
   width: 100%;
-  background: url("../gitHubImages/Attachment-1mobile.jpg");
+  background: url("../gitHubImages/Attachment-1-compressor.jpeg");
   background-position-x: 50%;
   background-position-y: 50%;
   background-size: cover;
@@ -2312,19 +2312,6 @@ background-color: transparent;
 }
 
 @media (min-width: 992px) {
-
-.wrapper {
-    height: 100vh !important;
-    width: 100% !important;
-    background: url("../gitHubImages/Attachment-1.jpeg") !important;
-    background-position-x: 50% !important;
-    background-position-y: 50% !important;
-    background-size: cover !important;
-    background-repeat-x: initial !important;
-    background-repeat-y: initial !important;
-    image-rendering: pixelated !important;
-    transition: 0.1s ease !important;
-}
 
 .pS {
   position: relative;

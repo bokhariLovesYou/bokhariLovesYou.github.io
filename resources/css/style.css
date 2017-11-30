@@ -2,33 +2,26 @@ html {
   overflow-x: hidden !important;
 }
 
+
+#slideshow {
+  padding-left: 0;
+/*  border: 2px solid purple;*/
+}
+
 .cycle-slide {
   z-index: 1 !important;
 }
 
-#center_film_img {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-/*  align-items: ;*/
-/*  top: 50% !important;*/
-/*  left: 50%;*/
-/*  transform: translate(0%, 0%);*/
-/*  width: 100%;*/
-}
 
 .prev,
 .next {
   display: none !important;
 }
 
-.filmPara {
-  transform: translate(-3%, 40%);
-}
 
-.film {
+/*.film {
   height: 120vh;
-}
+}*/
 
 .pS_1 {
 /*    transform: translate(-7%, 0%);*/
@@ -219,7 +212,7 @@ height: 100%;
 .wrapper {
   height: 100vh;
   width: 100%;
-/*  background: url("../gitHubImages/Attachment-1-compressor.jpeg");*/
+  background: url("../gitHubImages/Attachment-1-compressor.jpeg");
   background-position-x: 50%;
   background-position-y: 50%;
   background-size: cover;
@@ -1039,6 +1032,7 @@ text-align: center;
 
 .film {
   background-color: #3d3d3d;
+/*  height: 130vh !important;*/
 }
 
 .filmText {
@@ -1078,6 +1072,9 @@ text-align: center;
   color: inherit;
   color: var(--grid-text);
   padding-bottom: 20px;
+  opacity: 0.7;
+  padding-bottom: 30px;
+  width: 100%;
 }
 
 .paraTextWidth {
@@ -1742,9 +1739,9 @@ button#nextAudio {
 
 .musicBG {
   background-color: #ddd;
-  padding-top: 20px;
-  margin-top: -25px;
-  padding-bottom: 20px;
+/*  padding-top: 20px;*/
+  margin-top: -16px;
+/*  padding-bottom: 20px;*/
   background: #FFAFBD;  /* fallback for old browsers */
   background: -webkit-linear-gradient(left, #ffc3a0, #FFAFBD) rgba(0,0,0,0.5);
   background: -o-linear-gradient(left, #ffc3a0, #FFAFBD) rgba(0,0,0,0.5);
@@ -1888,13 +1885,12 @@ background-color: transparent;
 
   .pS_1 {
     left: 0;
-    transform: translate(-7%, 0%);*
   }
 
-  .film {
+/*  .film {
     height: 140vh;
   }
-
+*/
   .psbLogo {
     height: 130px !important;
     left: -10px;
@@ -1946,9 +1942,9 @@ background-color: transparent;
     font-size: 90px;
   }
 
-  .film {
+/*  .film {
     height: 150vh !important;
-  }
+  }*/
 
 .main-title {
   top: 30%;
@@ -1970,6 +1966,10 @@ background-color: transparent;
 #demo-canvas {
   display: none;
 }
+
+/*  .film {
+    height: 130vh !important;
+  }*/
 
 }
 
@@ -2013,11 +2013,11 @@ background-color: transparent;
 
 @media (min-width: 656px) {
 
-  .pS {
+/*  .pS {
     position: relative;
     left: 38%;
   }
-
+*/
 
   .gridMainTwo {
     height: auto;
@@ -2179,10 +2179,10 @@ background-color: transparent;
 
 @media (min-width: 768px) {
 
-  .pS {
-    position: relative;
-    height: 600px;
-  }
+.film_size {
+  height: 700px;
+}
+
 
 .reelButton {
   top: 50%;
@@ -2487,18 +2487,6 @@ background-color: transparent;
   bottom: 35px;
 }
 
-#slideshow img {
-/*  display: block;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: 0 auto;
-  width: auto;
-  image-rendering: pixelated;
-  background-repeat: no-repeat;
-  height: 730px;*/
-}
 
 /*.next {
   position: relative;
@@ -2641,11 +2629,11 @@ background-color: transparent;
     }
 
 @media (min-width: 1200px) {
-
+/*
 .pS {
   position: relative;
   left: 58%;
-}
+}*/
 
 /*.reelButton {
   top: 50%;

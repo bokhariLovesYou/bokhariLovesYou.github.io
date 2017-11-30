@@ -2,13 +2,9 @@ html {
   overflow-x: hidden !important;
 }
 
-.pS_1 {
-  width: 100%;
-}
 
 #slideshow {
   padding-left: 0;
-  width: 100%;
 /*  border: 2px solid purple;*/
 }
 

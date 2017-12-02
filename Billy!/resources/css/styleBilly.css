@@ -25,7 +25,10 @@ body {
 
 .catchScroll {
   overflow: hidden;
+  position: fixed;
+  width: 100%;
 }
+
 
 .freeScroll {
   overflow: auto;
@@ -638,6 +641,7 @@ i:hover {
 
   .place-holder {
     padding-left: 45px;
+  margin-left: 30px;
   }
 
 }

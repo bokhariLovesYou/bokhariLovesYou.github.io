@@ -35,6 +35,7 @@ $(document).ready(function() {
     $(".red-border").toggleClass("red");
     $(".belongPara").toggleClass("paraRight");
     $("html").toggleClass("catchScroll");
+    $("html").toggleClass("left");
     // $(".billyLogo").toggle();
     // return false;
   });

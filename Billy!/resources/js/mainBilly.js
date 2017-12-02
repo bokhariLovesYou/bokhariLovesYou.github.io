@@ -9,8 +9,11 @@ $(document).ready(function() {
     $(".billyLogo").toggleClass("animateLogo");
     $("#mobile-menu").toggleClass("slideInDown");
     $(".nyc").toggleClass("red");
+    $(".nyc").toggleClass("overlay");
+    $(".wrapper").toggleClass("overlay");
     $(".red-border").toggleClass("red");
     $(".belongPara").toggleClass("paraRight");
+    $(".next").toggleClass("displayNone");
     // $(".billyLogo").toggle();
     // return false;
   });

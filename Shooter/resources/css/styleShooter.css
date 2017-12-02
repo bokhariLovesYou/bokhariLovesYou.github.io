@@ -24,7 +24,7 @@ body {
   position: absolute;
   margin-left: 48%;
   background-color: #fff;
-  background: url("file:///Users/haanibokhari/Desktop/ALL%20OF%20MY%20APPS/My%20Portfolio/Shooter/images/cloud.png");
+  background: url("../images/cloud.png");
   background-size: contain;
   background-repeat: no-repeat;
   height: 100px;
@@ -53,7 +53,7 @@ body {
   width: 120px;
   bottom: 3%;
   left: 60%;
-  background: url("file:///Users/haanibokhari/Desktop/ALL%20OF%20MY%20APPS/My%20Portfolio/Shooter/images/space-shuttle.png");
+  background: url("../images/space-shuttle.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -62,7 +62,7 @@ body {
   position: absolute;
   height: 100px;
   width: 50px;
-  background: url("file:///Users/haanibokhari/Desktop/ALL%20OF%20MY%20APPS/My%20Portfolio/Shooter/images/monster_shuttle.png");
+  background: url("../images/monster_shuttle.png");
   background-size: contain;
   background-repeat: no-repeat;
 }

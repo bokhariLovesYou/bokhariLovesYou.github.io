@@ -477,6 +477,7 @@ hr {
   background-color: skyblue;
   opacity: 0.7;
   cursor: pointer;
+  padding-left: 2px;
 }
 
 .wrapper-6 {
@@ -519,8 +520,8 @@ hr {
   position: absolute;
   margin: 0 auto;
   cursor: pointer;
-  top: 97%;
-  left: 51%;
+  top: 70%;
+  left: 55%;
   transform: translate(-50%, -50%);
 }
 

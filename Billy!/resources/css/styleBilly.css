@@ -23,6 +23,16 @@ body {
   overflow-x: hidden;
 }
 
+.catchScroll {
+  overflow: hidden;
+  height: 100%;
+}
+
+.freeScroll {
+  overflow: auto;
+  height: auto;
+}
+
 .mobile-nav ul li a,
 .mobile-nav ul li a:link,
 .mobile-nav ul li a:active {
@@ -126,6 +136,8 @@ body {
   padding: 0px;
   display: inline;
   margin: 10px 10px;
+  transition: 0.2s ease;
+  z-index: 3;
 
 }
 
@@ -542,7 +554,8 @@ hr {
 }
 
 .animateLogo {
-  margin-left: 140px;
+  margin-left: 20vh;
+
   transition: 0.2s ease;
 }
 

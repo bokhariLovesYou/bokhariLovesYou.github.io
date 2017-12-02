@@ -5,6 +5,27 @@ $(document).ready(function() {
     $(".third").toggleClass("hamburger-3");
   });
 
+
+  jQuery.fn.clickToggle = function(a,b) {
+  var ab = [b,a];
+  return this.on("click", function(){ ab[this._tog^=1].call(this); });
+};
+
+
+    click = false;
+    function catchScroll() {
+     var scrollPosition = [
+      self.pageXOffset || document.documentElement.scrollLeft || document.body.scrollLeft,
+      self.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
+      ];
+
+      var html = jQuery('html');
+      html.data('scroll-position', scrollPosition);
+      html.data('previous-overflow', html.css('overflow'));
+      html.css('overflow', 'hidden');
+      window.scrollTo(scrollPosition[0], scrollPosition[1]);
+    }
+
   $(".wrapper").click(function() {
     $(".billyLogo").toggleClass("animateLogo");
     $("#mobile-menu").toggleClass("slideInDown");
@@ -13,9 +34,27 @@ $(document).ready(function() {
     $(".wrapper").toggleClass("overlay");
     $(".red-border").toggleClass("red");
     $(".belongPara").toggleClass("paraRight");
-    $(".next").toggleClass("displayNone");
     // $(".billyLogo").toggle();
     // return false;
+  });
+
+  $(".wrapper").clickToggle(function() {
+      var scrollPosition = [
+      self.pageXOffset || document.documentElement.scrollLeft || document.body.scrollLeft,
+      self.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
+      ];
+
+      var html = jQuery('html');
+      html.data('scroll-position', scrollPosition);
+      html.data('previous-overflow', html.css('overflow'));
+      html.css('overflow', 'hidden');
+      window.scrollTo(scrollPosition[0], scrollPosition[1]);
+  }, function() {
+    var html = jQuery('html');
+    var scrollPosition = html.data('scroll-position');
+    html.css('overflow', html.data('previous-overflow'));
+    window.scrollTo(scrollPosition[0], scrollPosition[1]);
+
   });
 
   $(".search").on('click', function() {

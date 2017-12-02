@@ -34,28 +34,29 @@ $(document).ready(function() {
     $(".wrapper").toggleClass("overlay");
     $(".red-border").toggleClass("red");
     $(".belongPara").toggleClass("paraRight");
+    $("html").toggleClass("catchScroll");
     // $(".billyLogo").toggle();
     // return false;
   });
 
-  $(".wrapper").clickToggle(function() {
-      var scrollPosition = [
-      self.pageXOffset || document.documentElement.scrollLeft || document.body.scrollLeft,
-      self.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
-      ];
+  // $(".wrapper").clickToggle(function() {
+  //     var scrollPosition = [
+  //     self.pageXOffset || document.documentElement.scrollLeft || document.body.scrollLeft,
+  //     self.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
+  //     ];
 
-      var html = jQuery('html');
-      html.data('scroll-position', scrollPosition);
-      html.data('previous-overflow', html.css('overflow'));
-      html.css('overflow', 'hidden');
-      window.scrollTo(scrollPosition[0], scrollPosition[1]);
-  }, function() {
-    var html = jQuery('html');
-    var scrollPosition = html.data('scroll-position');
-    html.css('overflow', html.data('previous-overflow'));
-    window.scrollTo(scrollPosition[0], scrollPosition[1]);
+  //     var html = jQuery('html');
+  //     html.data('scroll-position', scrollPosition);
+  //     html.data('previous-overflow', html.css('overflow'));
+  //     html.css('overflow', 'hidden');
+  //     window.scrollTo(scrollPosition[0], scrollPosition[1]);
+  // }, function() {
+  //   var html = jQuery('html');
+  //   var scrollPosition = html.data('scroll-position');
+  //   html.css('overflow', html.data('previous-overflow'));
+  //   window.scrollTo(scrollPosition[0], scrollPosition[1]);
 
-  });
+  // });
 
   $(".search").on('click', function() {
     $(".search-modal").addClass("slideInDown");

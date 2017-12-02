@@ -25,7 +25,6 @@ body {
 
 .catchScroll {
   overflow: hidden;
-  height: 100%;
 }
 
 .freeScroll {

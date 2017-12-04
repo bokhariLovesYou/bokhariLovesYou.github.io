@@ -1,9 +1,5 @@
 $(document).ready(function() {
 
-      $("html").imagesLoaded(function() {
-        $("body").toggleClass('loaded');
-    });
-
 // MONSTER LEFT: 0 to 250
 
 // Saving dom objects to variables

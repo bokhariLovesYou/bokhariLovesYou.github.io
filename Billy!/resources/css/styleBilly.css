@@ -3,6 +3,24 @@ html {
   overflow-x: hidden !important;
 }
 
+.loaded .pre_logo {
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.pre_logo {
+  z-index: 3000;
+  position: fixed;
+/*  height: 100%;*/
+  width: 100%;
+  font-family: "helvetica";
+  text-transform: uppercase;
+  line-height: 0.8;
+  font-size: 12px;
+  letter-spacing: 10px;
+  color: #eee;
+}
 
 #loader-wrapper {
   position: fixed;
@@ -226,7 +244,7 @@ body {
 }
 
 .slideshow2 {
-  background: url("../images/belong2.jpg");
+  background: url("../images/belong3.jpg");
 }
 
 .bg-main {

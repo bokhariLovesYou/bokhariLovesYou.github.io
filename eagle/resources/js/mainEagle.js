@@ -68,6 +68,13 @@ $(document).ready(function() {
     }
   }, 40);
 
+  document.addEventListener("touchstart", function(e) {
+  document.onkeydown({ keyCode: 32 });
+  });
+  document.addEventListener("touchend", function(e) {
+  document.onkeyup({ keyCode: 32 });
+  });
+
   $(document).on('keydown', function(e){
     var key = e.keyCode;
     if(key === 32 && go_up === false && game_over === false) {

@@ -19,7 +19,6 @@
 // CREATING QUOTES
 
     $(document).ready(function (){
-
     var quoteSource = [ {
     quote: "You are beautiful <3"
     },

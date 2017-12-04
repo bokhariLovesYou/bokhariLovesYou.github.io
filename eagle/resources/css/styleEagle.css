@@ -13,11 +13,13 @@ body {
   margin-left: 4%;
   overflow: hidden;
   border-radius: 5px;
+  margin: 0 auto;
+  max-width: 340px;
 }
 
 #bird {
   position: absolute;
-  background: url("file:///Users/haanibokhari/Desktop/ALL%20OF%20MY%20APPS/My%20Portfolio/eagle/images/bird.png");
+  background: url("../images/bird.png");
   height: 42px;
   width: 65px;
   background-size: contain;

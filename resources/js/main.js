@@ -9,6 +9,10 @@ $(document).ready(function() {
     //   });
     // });
 
+    $("html").imagesLoaded(function() {
+        $("body").toggleClass('loaded');
+    });
+
     var scrollLink = $(".scroll");
     var didScroll;
 

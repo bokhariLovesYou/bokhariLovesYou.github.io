@@ -5,6 +5,10 @@ $(document).ready(function() {
     $(".third").toggleClass("hamburger-3");
   });
 
+    $("html").imagesLoaded(function() {
+        $("body").toggleClass('loaded');
+    });
+
 
   jQuery.fn.clickToggle = function(a,b) {
   var ab = [b,a];

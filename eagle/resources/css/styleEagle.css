@@ -4,6 +4,10 @@ body {
   margin: 0;
 }
 
+.switch_text {
+  display: none;
+}
+
 #container {
   position: relative;
   height: 400px;
@@ -68,5 +72,27 @@ body {
 .slide {
   display: block;
 }
+
+@media (max-width: 500px) {
+  .switch_text {
+    z-index: 1000;
+    position: fixed;
+    top: 50%;
+  /*  height: 100%;*/
+    width: 100%;
+    font-family: "helvetica";
+    text-transform: uppercase;
+    line-height: 1.1;
+    font-size: 12px;
+    letter-spacing: 0px;
+    background-color: #111;
+    opacity: 0.8;
+    padding: 20px;
+    color: #eee;
+    display: block;
+    border-radius: 20px;
+    }
+}
+
 
 

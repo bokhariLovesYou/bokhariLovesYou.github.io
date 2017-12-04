@@ -16,9 +16,9 @@ html {
   position: relative;
   left: 50%;
   top: 50%;
-  width: 100px;
-  height: 100px;
-  margin: -50px 0 0 -50px;
+  width: 70px;
+  height: 70px;
+  margin: -35px 0 0 -35px;
   border: 3px solid transparent;
   border-top-color: #3498db;
   z-index: 2000;
@@ -85,7 +85,7 @@ html {
   top: 0;
   width: 51%;
   height: 100%;
-  background: #111;
+  background: #eee;
   z-index: 1999;
 }
 
@@ -129,14 +129,14 @@ html {
   transition: all 0.3s 0.3s ease-out;
 }
 
-.loaded #loader-wrapper {
+/*.loaded #loader-wrapper {
   -webkit-transform: translateY(-100%);
   -ms-transform: translateY(-100%);
   transform: translateY(-100%);
 
   -webkit-transition: all 0.3s 0.6s ease-out;
   transition: all 0.3s 0.6s ease-out;
-}
+}*/
 
 .loaded #loader-wrapper .loader-section.section-right,
 .loaded #loader-wrapper .loader-section.section-left {
@@ -145,14 +145,14 @@ html {
                 transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
 }
 
-.loaded #loader-wrapper {
+/*.loaded #loader-wrapper {
         -webkit-transform: translateY(-100%);
             -ms-transform: translateY(-100%);
                 transform: translateY(-100%);
 
         -webkit-transition: all 0.3s 1s ease-out;
                 transition: all 0.3s 1s ease-out;
-}
+}*/
 
 .no-js #loader-wrapper {
     display: none;

@@ -17,9 +17,9 @@ html {
   position: relative;
   left: 50%;
   top: 50%;
-  width: 100px;
-  height: 100px;
-  margin: -50px 0 0 -50px;
+  width: 70px;
+  height: 70px;
+  margin: -35px 0 0 -35px;
   border: 3px solid transparent;
   border-top-color: #3498db;
   z-index: 2000;

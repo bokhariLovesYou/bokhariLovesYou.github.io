@@ -47,6 +47,24 @@ $(function(){
   }
 });
 
+$(function(){
+
+  var $w = $(window),
+      $background2 = $('#large-header');
+
+  // Fix background image jump on mobile
+  if ((/Android|iPhone|iPad|iPod|BlackBerry/i).test(navigator.userAgent || navigator.vendor || window.opera)) {
+    $background2.css({'top': 'auto', 'bottom': 0});
+
+    $w.resize(sizeBackground);
+    sizeBackground();
+  }
+
+  function sizeBackground() {
+     $background2.height(screen.height);
+  }
+});
+
     var scrollLink = $(".scroll");
     var didScroll;
 

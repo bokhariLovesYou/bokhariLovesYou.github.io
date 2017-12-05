@@ -600,6 +600,7 @@ height: 100%;
   background-repeat-y: initial;
   image-rendering: pixelated;
   transition: 0.1s ease;
+  transition: 3s ease;
 }
 
 .hide {

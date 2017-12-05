@@ -27,6 +27,49 @@ html {
 }*/
 
 
+.loader {
+  display: block;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  width: 70px;
+  height: 70px;
+  border: 3px solid transparent;
+  border-top-color: #3498db;
+  z-index: 2000;
+  border-radius: 50%;
+  -webkit-animation: spin 0.4s linear infinite;
+  animation: spin 0.4s linear infinite;
+}
+
+.loader:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border: 3px solid transparent;
+  border-top-color: #e73c3c;
+  border-radius: 50%;
+  -webkit-animation: spin 0.5s linear infinite;
+  animation: spin 0.5s linear infinite;
+}
+
+.loader:after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  border: 3px solid transparent;
+  border-top-color: #f9c922;
+  border-radius: 50%;
+  -webkit-animation: spin 0.8s linear infinite;
+  animation: spin 0.8s linear infinite;
+}
+
 .pre_logo {
   z-index: 3000;
   position: fixed;
@@ -199,6 +242,10 @@ html {
   }
 }
 
+
+.glitch {
+  animation: glitch 0.5s infinite linear;
+}
 
 @keyframes glitch {
     0% {

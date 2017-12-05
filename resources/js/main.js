@@ -73,7 +73,7 @@ $(function(){
       e.preventDefault();
       $("body, html").animate({
         scrollTop: $(this.hash).offset().top
-      }, 800);
+      }, 2000);
       $(".scroll").blur();
     });
 
@@ -95,7 +95,12 @@ $(function(){
     $(document).scroll(function() {
       didScroll = true;
       $(".navbar_2").addClass("invert");
-      $(".navbar_2").addClass("height");
+      $(".navbar_2").addClass("loader");
+      $(".first").hide();
+      $(".second").hide();
+      $(".third").hide();
+      // $(".navbar_2").addClass("slideOutRight");
+      // $(".navbar_2").addClass("height");
     });
 
     setInterval(function() {
@@ -107,7 +112,16 @@ $(function(){
 
     function hasScrolled() {
       $(".navbar_2").removeClass("invert");
-      $(".navbar_2").removeClass("height");
+      $(".navbar_2").removeClass("loader");
+      $(".first").show();
+      $(".second").show();
+      $(".third").show();
+      $(".first").addClass("fadeIn");
+      $(".second").addClass("fadeIn");
+      $(".third").addClass("fadeIn");
+      // $(".navbar_2").show();
+      // $(".navbar_2").addClass("slideInRight");
+      // $(".navbar_2").removeClass("height");
     }
 
     // Change of height for logo

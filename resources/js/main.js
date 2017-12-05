@@ -20,7 +20,7 @@ function resizeBackground() {
     bg1.height($(window).height() + 60);
 }
 function resizeBackground2() {
-  bg2.height($(window).height() + 100);
+  bg2.height($(window).height() - 30);
 }
 
 $(window).resize(resizeBackground);

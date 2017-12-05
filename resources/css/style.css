@@ -490,7 +490,7 @@ height: 100%;
 }
 
 #work {
-  background-image: url("../gitHubImages/whitenoise-11.jpg");
+  background-image: url("../gitHubImages/whitenoise-10.jpg");
 /*  background-size: cover;*/
   background-repeat: repeat;
   background-position: 50% 50%;
@@ -539,7 +539,7 @@ height: 100%;
 #js_2 {
   position: absolute;
   left: 45%;
-  bottom: 20px;
+/*  bottom: 20px;*/
   top: 80%;
   transform: translate(-50%, -50%);
 }
@@ -2371,12 +2371,12 @@ background-color: transparent;
   }
 
   .reels:hover {
-    border-radius: 20px;
-    border: 50px solid #fff;
+/*    border-radius: 20px;
+    border: 50px solid #fff;*/
   }
 
   .reelThree:hover {
-    border: 50px solid #000;
+/*    border: 50px solid #000;*/
     background-color: red;
   }
 

@@ -13,6 +13,12 @@ $(document).ready(function() {
         $("body").toggleClass('loaded');
     });
 
+ var bodyh = document.body.clientHeight;
+ var windowh = window.innerHeight;
+
+  $("body").height(bodyh);
+  $(window).height(windowh);
+
     var scrollLink = $(".scroll");
     var didScroll;
 
@@ -337,6 +343,7 @@ $("body").swipe({
     if( $(e.target).is('a') ) {
         $(this).collapse('hide');
     }
+
 });
 
 

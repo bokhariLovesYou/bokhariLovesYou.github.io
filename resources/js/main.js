@@ -13,14 +13,21 @@ $(document).ready(function() {
         $("body").toggleClass('loaded');
     });
 
-var bg = $(".wrapper, #large-header");
+var bg1 = $("#large-header");
+var bg2 = $("#wrapper");
 
 function resizeBackground() {
-    bg.height($(window).height() + 60);
+    bg1.height($(window).height() + 60);
+}
+function resizeBackground2() {
+  bg2.height($(window).height() + 100);
 }
 
 $(window).resize(resizeBackground);
 resizeBackground();
+
+$(window).resize(resizeBackground2);
+resizeBackground2();
 
     var scrollLink = $(".scroll");
     var didScroll;

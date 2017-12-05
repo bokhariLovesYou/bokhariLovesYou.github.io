@@ -490,13 +490,14 @@ height: 100%;
 }
 
 #work {
-  background-image: url("../gitHubImages/whitenoise.jpg");
-  background-size: cover;
+  background-image: url("../gitHubImages/whitenoise-11.jpg");
+/*  background-size: cover;*/
+  background-repeat: repeat;
   background-position: 50% 50%;
 }
 
 #about {
-  background-image: url("../gitHubImages/eyes.jpg");
+  background-image: url("../gitHubImages/eyes-10.jpg");
   background-size: cover;
   background-position-x: 50%;
   background-position-y: 90%;
@@ -591,7 +592,7 @@ height: 100%;
 .wrapper {
   height: 100vh;
   width: 100%;
-  background: url("../gitHubImages/Attachment-6.jpg");
+  background: url("../gitHubImages/Attachment-10.jpg");
   background-position-x: 50%;
   background-position-y: 50%;
   background-size: cover;
@@ -1217,7 +1218,7 @@ text-align: center;
 
 .reelOne {
   background-color: #EEE;
-  background-image: url("../gitHubImages/reelOne.jpg");
+  background-image: url("../gitHubImages/reelOne-10.jpg");
 /*  background-size: 40%;*/
   background-size: cover;
   background-repeat: no-repeat;
@@ -1235,7 +1236,7 @@ text-align: center;
   -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
    animation-direction: alternate;
    cursor: pointer;
-   background-image: url("../gitHubImages/reelOne.jpg");
+   background-image: url("../gitHubImages/reelOne-10.jpg");
    background-size: cover;
    background-repeat: no-repeat;
    background-position: 80% 95%;
@@ -1247,7 +1248,7 @@ text-align: center;
 
 .reelTwo {
   background-color: #EEE;
-  background-image: url("../gitHubImages/reelTwo.jpg");
+  background-image: url("../gitHubImages/reelTwo-10.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 10% 10%;
@@ -1264,7 +1265,7 @@ text-align: center;
    animation-direction: alternate;
    cursor: pointer;
    color: #eee;
-   background-image: url("../gitHubImages/reelTwo.jpg");
+   background-image: url("../gitHubImages/reelTwo-10.jpg");
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -1276,7 +1277,7 @@ text-align: center;
 
 .reelThree {
   background-color: #EEE;
-  background-image: url("../gitHubImages/reelThree.jpg");
+  background-image: url("../gitHubImages/reelThree-10.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 10% 0%;
@@ -1292,7 +1293,7 @@ text-align: center;
    animation-direction: alternate;
    cursor: pointer;
    color: #eee;
-   background-image: url("../gitHubImages/reelThree.jpg");
+   background-image: url("../gitHubImages/reelThree-10.jpg");
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -1305,7 +1306,7 @@ text-align: center;
 
 .reelFour {
   background-color: #EEE;
-  background-image: url("../gitHubImages/reelFour.jpg");
+  background-image: url("../gitHubImages/reelFour-10.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 40% 10%;
@@ -1321,7 +1322,7 @@ text-align: center;
    animation-direction: alternate;
    cursor: pointer;
    color: #eee;
-   background-image: url("../gitHubImages/reelFour.jpg");
+   background-image: url("../gitHubImages/reelFour-10.jpg");
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -1362,7 +1363,7 @@ text-align: center;
   opacity: 0.9;
   transition: all 0.5s ease 0s;
   -webkit-transition: all 0.25s ease 0s;
-  max-width: 6%;
+/*  max-width: 6%;*/
   margin-bottom: 50px;
 
 }
@@ -2705,6 +2706,13 @@ background-color: transparent;
 
 @media (min-width: 992px) {
 
+.bar-1 {
+  max-width: 6%;
+}
+
+.graph-bar {
+  max-width: 6%;
+}
 
 .pS {
   position: relative;
@@ -2727,7 +2735,7 @@ background-color: transparent;
 
 
 #about {
-  background-image: url("../gitHubImages/aboutPicture6.jpg");
+  background-image: url("../gitHubImages/aboutPicture6-11.jpg");
   background-position-x: 0;
   background-attachment: fixed;
 }
@@ -2849,12 +2857,12 @@ background-color: transparent;
 
 .musicBG {
   background-color: #e0cfbf !important;
-  background-image: url("../gitHubImages/bgAudio.jpg") !important;
+  background-image: url("../gitHubImages/bgAudio-10.jpg") !important;
   background-position: cover !important;
   background-size: 600px !important;
   background-position-y: 100% !important;
   background-repeat: no-repeat !important;
-  background-image: url("../gitHubImages/bgAudio.jpg"), linear-gradient(to right, rgba(255, 195, 160, 1), rgba(255, 175, 189, 1)) !important;
+  background-image: url("../gitHubImages/bgAudio-10.jpg"), linear-gradient(to right, rgba(255, 195, 160, 1), rgba(255, 175, 189, 1)) !important;
 }
 
 .audioText {

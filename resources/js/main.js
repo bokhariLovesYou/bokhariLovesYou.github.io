@@ -13,11 +13,8 @@ $(document).ready(function() {
         $("body").toggleClass('loaded');
     });
 
- var bodyh = document.body.clientHeight;
- var windowh = window.innerHeight;
-
-  $("body").height(bodyh);
-  $(window).height(windowh);
+var viewportHeight = $('body').outerHeight();
+$('body').css({ height: viewportHeight });
 
     var scrollLink = $(".scroll");
     var didScroll;

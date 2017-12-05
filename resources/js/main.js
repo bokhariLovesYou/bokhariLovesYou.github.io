@@ -16,7 +16,7 @@ $(document).ready(function() {
 var bg = $(".wrapper, #large-header");
 
 function resizeBackground() {
-    bg.height($(window).height() + 60);
+    bg.height($(window).height());
 }
 
 $(window).resize(resizeBackground);

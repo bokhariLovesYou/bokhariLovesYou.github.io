@@ -40,7 +40,7 @@ html {
   letter-spacing: 10px;
   display: block;
 }
-
+/*
 .pre_logo:before,
 .pre_logo:after {
   content: 'PARAS BOKHARI';
@@ -65,7 +65,7 @@ html {
   font-weight: 600;
   text-shadow: -2px 0 #fe3a7f;
   animation: effect 0.4s infinite linear;
-}
+}*/
 
 @-webkit-keyframes effect {
     0% {

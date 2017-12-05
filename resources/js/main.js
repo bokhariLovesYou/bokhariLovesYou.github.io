@@ -94,7 +94,8 @@ $(function(){
     // Smooth Scroll
     $(document).scroll(function() {
       didScroll = true;
-      $(".navbar_2").addClass("invert");
+      $(".navbar_2").addClass("grey");
+      $(".navbar_2").addClass("border");
       $(".navbar_2").addClass("loader");
       $(".first").hide();
       $(".second").hide();
@@ -111,14 +112,15 @@ $(function(){
     }, 250);
 
     function hasScrolled() {
-      $(".navbar_2").removeClass("invert");
+      $(".navbar_2").removeClass("grey");
+      $(".navbar_2").removeClass("border")
       $(".navbar_2").removeClass("loader");
+      $(".first").removeClass("loader");
+      $(".second").removeClass("loader");
+      $(".third").removeClass("loader");
       $(".first").show();
       $(".second").show();
       $(".third").show();
-      $(".first").addClass("fadeIn");
-      $(".second").addClass("fadeIn");
-      $(".third").addClass("fadeIn");
       // $(".navbar_2").show();
       // $(".navbar_2").addClass("slideInRight");
       // $(".navbar_2").removeClass("height");

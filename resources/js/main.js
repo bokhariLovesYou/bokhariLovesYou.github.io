@@ -14,20 +14,38 @@ $(document).ready(function() {
     });
 
 var bg1 = $("#large-header");
-var bg2 = $("#wrapper");
+// var bg2 = $("#wrapper");
 
 function resizeBackground() {
     bg1.height($(window).height() + 60);
 }
-function resizeBackground2() {
-  bg2.height($(window).height() - 30);
-}
+// function resizeBackground2() {
+//   bg2.height($(window).height() - 30);
+// }
 
 $(window).resize(resizeBackground);
 resizeBackground();
 
-$(window).resize(resizeBackground2);
-resizeBackground2();
+// $(window).resize(resizeBackground2);
+// resizeBackground2();
+
+$(function(){
+
+  var $w = $(window),
+      $background = $('#wrapper');
+
+  // Fix background image jump on mobile
+  if ((/Android|iPhone|iPad|iPod|BlackBerry/i).test(navigator.userAgent || navigator.vendor || window.opera)) {
+    $background.css({'top': 'auto', 'bottom': 0});
+
+    $w.resize(sizeBackground);
+    sizeBackground();
+  }
+
+  function sizeBackground() {
+     $background.height(screen.height);
+  }
+});
 
     var scrollLink = $(".scroll");
     var didScroll;

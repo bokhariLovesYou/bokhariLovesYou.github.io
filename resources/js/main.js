@@ -13,8 +13,14 @@ $(document).ready(function() {
         $("body").toggleClass('loaded');
     });
 
-var viewportHeight = $('body').outerHeight();
-$('body').css({ height: viewportHeight });
+var bg = $(".wrapper, #large-header");
+
+function resizeBackground() {
+    bg.height($(window).height());
+}
+
+$(window).resize(resizeBackground);
+resizeBackground();
 
     var scrollLink = $(".scroll");
     var didScroll;

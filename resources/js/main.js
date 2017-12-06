@@ -73,7 +73,7 @@ $(function(){
       e.preventDefault();
       $("body, html").animate({
         scrollTop: $(this.hash).offset().top
-      }, 2000);
+      }, 800);
       $(".scroll").blur();
     });
 
@@ -109,7 +109,7 @@ $(function(){
         hasScrolled();
         didScroll = false;
       }
-    }, 250);
+    }, 800);
 
     function hasScrolled() {
       $(".navbar_2").removeClass("grey");

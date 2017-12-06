@@ -109,7 +109,7 @@ $(function(){
         hasScrolled();
         didScroll = false;
       }
-    }, 800);
+    }, 1000);
 
     function hasScrolled() {
       $(".navbar_2").removeClass("grey");

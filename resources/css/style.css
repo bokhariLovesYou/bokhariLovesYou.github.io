@@ -2,6 +2,13 @@ html {
   overflow-x: hidden !important;
 }
 
+.portfolio {
+  color: #000 !important;
+}
+
+#connect {
+  color: #000;
+}
 
 /*.psbLogo:before,
 .psbLogo:after {
@@ -550,6 +557,7 @@ height: 100%;
   background-image: url("../gitHubImages/whitenoise-10.jpg");
 /*  background-size: cover;*/
   background-repeat: repeat;
+  color: #000;
   background-position: 50% 50%;
 }
 

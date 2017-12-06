@@ -1,8 +1,13 @@
+html {
+  position: relative;
+}
+
 body {
   background-color: #f1f1f1;
   width: 100%;
   height: 100%;
   overflow-x: hidden;
+  position: relative;
 /*  overflow-y: hidden;*/
 }
 
@@ -55,6 +60,7 @@ body {
   background-size: cover;
   height: 500px;
   width: 300px;
+/*  display: none;*/
 }
 
 .heading {
@@ -102,7 +108,7 @@ body {
 
 .wrapper-nav {
   position: absolute;
-  top: 50%;
+  top: -25px;
   left: 100%;
   width: 550px;
   transform: translate(-50%, -50%);
@@ -114,8 +120,8 @@ body {
   cursor: pointer;
   transition: all 0.3s ease;
   position: absolute;
-  bottom: 273px;
-  left: 210px;
+  top: 0;
+  left: 220px;
 }
 
 .navbar div {
@@ -179,7 +185,7 @@ body {
   color: #000;
   transition: 0.5s;
   display: none;
-  background: url("file:///Users/haanibokhari/Desktop/ALL%20OF%20MY%20APPS/My%20Portfolio/Danny/images/danny5.jpg");
+  background: url("../images/danny5.jpg");
   filter: invert(70%);
 }
 
@@ -293,7 +299,7 @@ hr {
 
 .wrapper-nav-2 {
   position: absolute;
-  top: 50%;
+  top: -13px;
   left: 100%;
   width: 550px;
   transform: translate(-50%, -50%);
@@ -305,8 +311,8 @@ hr {
   cursor: pointer;
   transition: all 0.3s ease;
   position: absolute;
-  bottom: 263px;
-  left: 210px;
+  top: 0;
+  left: 225px;
 }
 
 .navbar-2 div {
@@ -361,7 +367,7 @@ hr {
   position: relative;
   right: 20px;
   top: 50px;
-  background: url("file:///Users/haanibokhari/Desktop/ALL%20OF%20MY%20APPS/My%20Portfolio/Danny/images/bg-2-danny.jpg");
+  background: url("../images/bg-2-danny.jpg");
   background-size: cover;
   background-position: 50% 50%;
   filter: invert(100%);
@@ -383,7 +389,7 @@ hr {
   position: relative;
   bottom: 300px;
   left: 70%;
-  background: url("file:///Users/haanibokhari/Desktop/ALL%20OF%20MY%20APPS/My%20Portfolio/Danny/images/bg-201-danny.jpg");
+  background: url("../images/bg-201-danny.jpg");
   background-size: cover;
   background-position: 50% 50%;
   filter: invert(100%);
@@ -418,7 +424,7 @@ hr {
   position: relative;
   right: 20px;
   top: 50px;
-  background: url("file:///Users/haanibokhari/Desktop/ALL%20OF%20MY%20APPS/My%20Portfolio/Danny/images/bg-3-danny.jpg");
+  background: url("../images/bg-3-danny.jpg");
   background-size: cover;
   background-position: 50% 50%;
 /*  filter: invert(100%);*/
@@ -437,7 +443,7 @@ hr {
   position: relative;
   bottom: 300px;
   left: 40%;
-  background: url("file:///Users/haanibokhari/Desktop/ALL%20OF%20MY%20APPS/My%20Portfolio/Danny/images/bg-301-danny.jpg");
+  background: url("../images/bg-301-danny.jpg");
   background-size: cover;
   background-position: 50% 50%;
 /*  background-position-y: 80px;*/
@@ -453,7 +459,7 @@ hr {
   position: relative;
   bottom: 750px;
   left: 70%;
-  background: url("file:///Users/haanibokhari/Desktop/ALL%20OF%20MY%20APPS/My%20Portfolio/Danny/images/bg-302-danny.jpg");
+  background: url("../images/bg-302-danny.jpg");
   background-size: cover;
   background-position: 50% 50%;
   transition: 0.1s ease;
@@ -542,3 +548,38 @@ opacity: 0;
   height: 300px;
   padding-top: -30px;
 }
+
+@media (max-width: 330px) {
+
+  .wrapper-cover {
+    height: 400px;
+    width: 240px;
+  }
+
+  .main-bg-2 {
+    height: 352px;
+  }
+
+  .main-bg-201 {
+    height: 352px;
+  }
+
+  .main-bg-3,
+  .main-bg-301,
+  .main-bg-302 {
+    height: 365px;
+  }
+
+  .text-para {
+    margin-left: 2px;
+  }
+
+  .hover-bg-3 {
+    top:115px;
+  }
+
+  .experiment {
+    margin-left: 20px;
+  }
+
+

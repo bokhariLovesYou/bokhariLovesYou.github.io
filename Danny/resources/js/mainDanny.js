@@ -52,7 +52,12 @@ $(document).ready(function() {
     $(".text").removeClass("slideLeft");
   });
 
-  $("#fullpage").fullpage();
+  $("#fullpage").fullpage({
+    autoScrolling: true,
+    scrollHorizontally: false,
+    touchSensitivity: 15,
+    normalScrollElementTouchThreshold: 5
+  });
 
 
 });

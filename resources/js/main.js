@@ -1,20 +1,12 @@
 $(document).ready(function() {
 
-    //   $(function() {
-    //   $('.nav-link').click(function() {
-    //     var id = $(this).attr('href');
-    //     $('html,body').animate({ scrollTop: $(id).offset().top }, 'slow');
-    //     // Prevent default behavior of link
-    //     return false;
-    //   });
-    // });
 
     $("html").imagesLoaded(function() {
         $("body").toggleClass('loaded');
     });
 
 var bg1 = $("#large-header");
-// var bg2 = $("#wrapper");
+
 
 function resizeBackground() {
     bg1.height($(window).height() + 60);
@@ -109,7 +101,7 @@ $(function(){
         hasScrolled();
         didScroll = false;
       }
-    }, 800);
+    }, 250);
 
     function hasScrolled() {
       $(".navbar_2").removeClass("grey");

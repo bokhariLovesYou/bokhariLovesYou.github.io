@@ -10,33 +10,6 @@ html {
   color: #000;
 }
 
-/*.psbLogo:before,
-.psbLogo:after {
-  content: url('resources/gitHubImages/logo.png');
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  filter: sepia();
-  border: 2px solid red;
-}
-
-.psbLogo_2:hover.psbLogo_2a:before {
-  left: 8px;
-  box-shadow: -2px 0 #00ffea;
-  animation: glitch 0.5s infinite linear;
-}
-
-.psbLogo_2:hover .psbLogo_2:after {
-  left: 2px;
-  box-shadow: -2px 0 #fe3a7f;
-  animation: glitch 0.5s infinite linear;
-}*/
-
-.border {
-/*  border-radius: 0 !important;*/
-/*  transition: 0.2s ease;*/
-}
 
 .grey {
   background-color: transparent !important;
@@ -459,17 +432,6 @@ html {
 .prev,
 .next {
   display: none !important;
-}
-
-
-/*.film {
-  height: 120vh;
-}*/
-
-.pS_1 {
-/*    transform: translate(-7%, 0%);*/
-/*  padding-bottom: 100px;*/
-/*  width: 100vh;*/
 }
 
 .filmPara {
@@ -1489,9 +1451,6 @@ text-align: center;
   color: #ef3b3b;
   padding-top: 50px;
   padding-left: 10px;
-/*  display: flex;
-  justify-content: flex-start;*/
-/*  text-align: center;*/
 }
 
 .filmTitle {
@@ -1501,14 +1460,9 @@ text-align: center;
   font-family: 'Kanit', sans-serif;
   font-size: 3.5vh;
   text-transform: uppercase;
-/*  -webkit-writing-mode: vertical-lr;*/
-/*  writing-mode: vertical-lr;*/
   text-align: right;
-/*  display: flex;*/
-/*  justify-content: flex-end;*/
   color: #00D2D6;
   padding-right: 20px;
-/*  color: var(--grid-title-text);*/
 }
 
 .filmPara {
@@ -1536,11 +1490,6 @@ text-align: center;
 
 .film_size {
   display: block;
-/*  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: 0 auto;*/
   width: auto;
   image-rendering: pixelated;
   background-repeat: no-repeat;
@@ -1551,7 +1500,6 @@ text-align: center;
   position: relative;
   top: 50%;
   left: 5%;
-/*  transform: translate(50%, 0%);*/
 }
 
 
@@ -1561,8 +1509,6 @@ text-align: center;
   cursor: pointer;
   position: relative;
   width: auto;
-/*  margin-top: -22px;*/
-/*  padding: 16px;*/
   color: white;
   font-weight: bold;
   font-size: 18px;
@@ -1571,16 +1517,13 @@ text-align: center;
 }
 
 .prev {
-/*  bottom: 70px;*/
     top: 40px;
     right: 155px;
-/*  padding-left: 8px;*/
-/*  left: 50px;*/
 }
 
 .next {
   bottom: 70px;
-/*  left: 340px;*/
+
   left: 150px;
   border-radius: 3px 0 0 3px;
 }
@@ -1633,8 +1576,6 @@ text-align: center;
   position: relative;
   left: 3em;
   top: 3em;
-/*  justify-content: center;
-  align-items: center;*/
   padding-right: 3em;
   justify-content: center;
   align-content: center;
@@ -1840,20 +1781,6 @@ text-align: center;
   transition: all 0.25s ease;
 }
 
-.javaSlide {
-/*  position: relative;
-  width: 100%;
-  background-color: #fff;
-  background-size: cover;
-  background-position: center center;
-  z-index: 1;
-  overflow: hidden;*/
-}
-
-.javaSlide2 {
-
-}
-
 .grid__item {
   cursor: pointer;
 }
@@ -1896,10 +1823,6 @@ text-align: center;
 .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
   cursor: pointer;
 }
-
-
-
-
 
 .mfp-arrow-left:after,
 .mfp-arrow-left:before,
@@ -2003,9 +1926,6 @@ button.mfp-arrow-right {
   z-index: 1;
   background-position: cover;
   opacity: 1;
-/*  padding-left: 20px;*/
-/*  margin-left: 30px;*/
-/*  border-radius: 100%;*/
 }
 
 #audio-info {
@@ -2192,12 +2112,6 @@ button#nextAudio {
   background: -o-linear-gradient(left, #ffc3a0, #FFAFBD) rgba(0,0,0,0.5);
   background: linear-gradient(to right, #ffc3a0, #FFAFBD) rgba(0,0,0,0.5);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border: 5px dotted #fff;
-
-/*  background-image: url("file:///Users/haanibokhari/Desktop/bgAudio.jpg");
-  background-position: cover;
-  background-color: #ddd;
-  background-position-y: 100%;
-  background-repeat: no-repeat;*/
 }
 
 .musicBG:before {
@@ -2285,19 +2199,10 @@ background-color: transparent;
  transition: 0.5s ease;
 }
 
+
+
 .skillText {
     color: rgba(0,0,0,0.7);
-    writing-mode:tb-rl;
-/*    -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);*/
-/*    -webkit-transform:rotate(90deg);
-    -moz-transform:rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform:rotate(90deg);
-    transform: rotate(90deg);*/
     white-space:nowrap;
     display:block;
     bottom:0;
@@ -2309,6 +2214,8 @@ background-color: transparent;
     padding-top: 10px;
     font-family: "Futura";
     transition: ease 0.2s;
+    writing-mode:tb-rl;
+-webkit-writing-mode: tb-rl;
 }
 
 
@@ -2387,10 +2294,6 @@ background-color: transparent;
     font-size: 90px;
   }
 
-/*  .film {
-    height: 150vh !important;
-  }*/
-
 .main-title {
   top: 30%;
 }
@@ -2412,10 +2315,6 @@ background-color: transparent;
   display: none;
 }
 
-/*  .film {
-    height: 130vh !important;
-  }*/
-
 }
 
 
@@ -2436,12 +2335,9 @@ background-color: transparent;
   }
 
   .reels:hover {
-/*    border-radius: 20px;
-    border: 50px solid #fff;*/
   }
 
   .reelThree:hover {
-/*    border: 50px solid #000;*/
     background-color: red;
   }
 
@@ -2458,11 +2354,6 @@ background-color: transparent;
 
 @media (min-width: 656px) {
 
-/*  .pS {
-    position: relative;
-    left: 38%;
-  }
-*/
 
   .gridMainTwo {
     height: auto;
@@ -2488,137 +2379,6 @@ background-color: transparent;
 
 .gallery {
   height: 700px;
-}
-
-/*cycle*/
-  .grid1 {
-/*    position: relative;
-    width: 10% !important;
-    height: 103px !important;
-    left: -10px !important;
-    bottom: 70px;
-    max-width: 90%;*/
-  }
-
-/*hunza*/
-  .grid2 {
-/*    position: relative;
-    width: 20% !important;
-    height: 200px !important;
-    left: 370px !important;
-    bottom: 160px;
-    max-width: 90%;*/
-  }
-
-/*kazloo*/
-  .grid3 {
-    position; relative;
-/*    width: 30% !important;
-    height: 268px !important;
-    max-width: 80%;
-    left: -120px !important;
-    max-width: 90%;*/
-    min-height: 50px;
-    grid-area: auto !important;
-    grid-area: 8 / 5 / 22/ 15;
-  }
-
-/*filmistaan*/
-  .grid4 {
-/*    position: relative;
-    width: 80px !important;
-    height: 124px !important;
-    left: 200px !important;
-    bottom: 100px;
-    max-width: 90%;*/
-  }
-
-/*barber*/
-  .grid5 {
-/*    position: relative;
-    width: 10% !important;
-    height: 124px !important;
-    bottom: 280px;
-    left: -350px !important;
-    max-width: 90%;*/
-  }
-
-/*revolver*/
-  .grid6 {
-/*    position: relative;
-    width: 20% !important;
-    height: 150px !important;
-    left: 270px !important;
-    bottom: 80px;
-    max-width: 90%;*/
-  }
-
-/*poloroids*/
-  .grid7 {
-/*    position: relative;
-    width: 25% !important;
-    height: 145px !important;
-    bottom: 240px;
-    left: 145px !important;*/
-  }
-
-/*mosibello newsletter*/
-  .grid8 {
-/*    position: relative;
-    width: 12% !important;
-    height: 145px !important;
-    bottom: 350px;
-    left: -300px !important;*/
-  }
-
-/*darzi store cool logo*/
-  .grid9 {
-/*    position: relative;
-    width: 20% !important;
-    height: 100px !important;
-    left: 90px !important;
-    bottom: 190px;*/
-  }
-
-/*fathersday mossibello*/
-  .grid10 {
-/*    position: relative;
-    width: 10% !important;
-    height: 103px !important;
-    left: 110px !important;
-    bottom: 140px;*/
-  }
-
-/*darzi store girl chaapa*/
-  .grid11 {
-/*    position: relative;
-    width: 15% !important;
-    height: 124px !important;
-    bottom: 150px;
-    left: -10px !important;*/
-  }
-
-/*darzi store letter post*/
-  .grid12 {
-/*    position: relative;
-    width: 25% !important;
-    height: 105px !important;
-    bottom: 170px;
-    left: 0px !important;*/
-  }
-
-/*mosibello rose*/
-  .grid13 {
-/*    position: relative;
-    width: 30% !important;
-    height: 130px !important;
-    bottom: 180px;
-    left: 150px !important;*/
-  }
-
-  .grid-item-nav {
-/*    position: relative;
-    bottom: 0px !important;*/
   }
 }
 
@@ -2950,10 +2710,6 @@ background-color: transparent;
 }
 
 
-/*.next {
-  position: relative;
-  top: 100px;
-}*/
 
 
 .aboutH,
@@ -3011,16 +2767,6 @@ background-color: transparent;
     left: 20px !important;
   }
 
-/*  .footer {
-    opacity: 0.9;
-    position: fixed;
-    border-radius: 50px;
-  }*/
-
-/*  .footer {
-    bottom: 15px;
-    right: 0px;
-  }*/
 
     .header {
       position: absolute;
@@ -3031,12 +2777,6 @@ background-color: transparent;
       top: 70px;
       left: 58px;
     }
-/*
-    li {
-      padding-right: 50px;
-      margin-left: 10px;
-      font-size: 12px;
-    }*/
 
     .navbar {
       position: absolute;
@@ -3091,19 +2831,6 @@ background-color: transparent;
     }
 
 @media (min-width: 1200px) {
-/*
-.pS {
-  position: relative;
-  left: 58%;
-}*/
-
-/*.reelButton {
-  top: 50%;
-  left: 41%;
-  transform: translate(-90%, 200%) rotate(-90deg);
-  font-size: 80px;
-  cursor: pointer;
-}*/
 
 
   #js_2 {

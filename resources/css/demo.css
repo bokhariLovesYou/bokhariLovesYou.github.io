@@ -216,6 +216,7 @@ a:focus {
 	justify-content: center;
 	align-content: center;
 	grid-gap: var(--gap);
+	padding-top: 100px;
 /*	pointer-events: none;*/
 }
 

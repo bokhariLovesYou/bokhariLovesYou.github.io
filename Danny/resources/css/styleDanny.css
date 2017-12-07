@@ -1,13 +1,14 @@
 html {
-/*  position: relative;*/
+  position: relative;
+  overflow-x: hidden !important;
 }
 
 body {
   background-color: #f1f1f1;
   width: 100%;
   height: 100%;
-  overflow-x: hidden;
-/*  position: relative;*/
+  overflow-x: hidden !important;
+  position: relative;
 /*  overflow-y: hidden;*/
 }
 
@@ -27,46 +28,57 @@ body {
 
 .wrapper-Y {
   height: 100vh;
+  width: 100%;
 }
+
 .wrapper {
-  position: absolute;
-  left: 50%;
-  top: 5%;
-  transform: translate(-50%, -50%);
+  position: relative;
+  text-align: center;
+  top: 14px;
 }
 
 
 .wrapper-2 {
-  position: absolute;
-  left: 50%;
-  bottom: 1%;
-  transform: translate(-50%, -50%);
+  position: relative;
+  text-align: center;
+  top: 90%;
 }
 
 .wrapper-3 {
-  position: absolute;
-  left: 50%;
-  top: 25%;
-  transform: translate(-50%, -50%);
+  position: relative;
+  left: 43%;
+  top: 15%;
+  transform: translate(0,-50%);
 }
 
 .wrapper-4 {
-  position: absolute;
-  left: 50%;
-  bottom: 10%;
+  position: relative;
+  left: 52%;
+  top: 63%;
   transform: translate(-50%, -50%);
+  width: 50%;
+
+}
+
+.cover {
+  position: relative;
+  top: 5%;
 }
 
 .wrapper-cover {
   position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  background-size: cover;
   height: 500px;
   width: 300px;
+  left: 50%;
+  margin-left: -140px;
+  top: 10%;
 /*  display: none;*/
 }
+
+.cover:hover .text-1 {
+  filter: invert() !important;
+}
+
 
 .heading {
   text-transform: uppercase;
@@ -177,6 +189,15 @@ body {
 .cover:hover {
   filter: invert();
 }
+
+.cover:hover .wrapper-3 {
+  filter: invert();
+}
+
+.cover:hover .heading {
+  filter: invert();
+}
+
 
 
 /* MOBILE MENU TOGGLED*/
@@ -558,9 +579,14 @@ opacity: 0;
 
 @media (max-width: 330px) {
 
+.text-1 {
+  font-size: 10px;
+}
+
   .wrapper-cover {
-    height: 400px;
-    width: 240px;
+    height: 430px;
+    width: 258px;
+    margin-left: -120px;
   }
 
   .main-bg-2 {
@@ -588,5 +614,11 @@ opacity: 0;
   .experiment {
     margin-left: 20px;
   }
+}
 
-
+@media (min-width: 568px) {
+  .wrapper-4 {
+    width: 10%;
+    top: 65%;
+  }
+}

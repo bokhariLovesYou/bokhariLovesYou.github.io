@@ -92,7 +92,6 @@ $(function(){
       $(".first").hide();
       $(".second").hide();
       $(".third").hide();
-      // $(".navbar_2").addClass("slideOutRight");
       // $(".navbar_2").addClass("height");
     });
 
@@ -113,8 +112,9 @@ $(function(){
       $(".first").show();
       $(".second").show();
       $(".third").show();
+      // $(".navbar_2_to_top").removeClass("slideOutRight");
       // $(".navbar_2").show();
-      // $(".navbar_2").addClass("slideInRight");
+      $(".navbar_back_to_top").addClass("slideInRight");
       // $(".navbar_2").removeClass("height");
     }
 

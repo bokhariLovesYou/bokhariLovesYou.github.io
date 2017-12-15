@@ -3026,7 +3026,7 @@ background-color: transparent;
 }
 
 @media (max-height: 457px) {
-  .text_2 {
+/*  .text_2 {
     font-size: 90px;
     line-height: 70px;
   }
@@ -3039,6 +3039,10 @@ background-color: transparent;
   .psbLogo_2 {
     height: 90px;
     top: 3%;
+  }*/
+
+  .wrapper {
+    height: 700px;
   }
 
   #large-header{
@@ -3047,13 +3051,9 @@ background-color: transparent;
 }
 
 @media (max-height: 556px) {
-  .text_2_div {
-    top: 20%;
-  }
-
-  .psbLogo_2 {
-/*    height: 157px !important;
-    width: 113px !important;*/
+  .wrapper {
+    height: 800px;
   }
 }
+
 

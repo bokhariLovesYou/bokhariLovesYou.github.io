@@ -11,12 +11,12 @@ body {
   position: relative;
   height: 90vh;
   width: 80%;
-  left: 10%;
   margin-top: 20px;
   background-color: #292929;
   overflow: hidden;
   border-radius: 10px;
   max-width: 350px;
+  margin: 0 auto;
 }
 
 .line {
@@ -176,13 +176,34 @@ body {
 #score-div {
   position: absolute;
   bottom: 0;
-  left: 40%;
+  left: 50%;
   font-size: 20px;
   color: #fff;
   font-family: helvetica;
   padding: 10px;
+  margin-left: -50px;
 }
 
+@media (max-width: 500px) {
+  .switch_text {
+    z-index: 1000;
+    position: fixed;
+    top: 50%;
+  /*  height: 100%;*/
+    width: 100%;
+    font-family: "helvetica";
+    text-transform: uppercase;
+    line-height: 1.1;
+    font-size: 12px;
+    letter-spacing: 0px;
+    background-color: #111;
+    opacity: 0.8;
+    padding: 20px;
+    color: #eee;
+    display: block;
+    border-radius: 20px;
+    }
+}
 
 
 

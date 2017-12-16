@@ -7,6 +7,10 @@ body {
   background-color: grey;
 }
 
+.switch_text {
+  display: none;
+}
+
 #wrapper {
   position: relative;
   height: 90vh;

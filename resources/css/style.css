@@ -787,8 +787,8 @@ ul li {
   height: 40px;
   cursor: pointer;
   transition: all 0.3s ease;
-  position: absolute;
-  bottom: 300px;
+  position: relative;
+/*  bottom: 90px;*/
   left: 220px;
   background-color: skyblue;
   border-radius: 100%;
@@ -2426,7 +2426,7 @@ background-color: transparent;
 
 
 .gallery {
-  height: 700px;
+  height: 100vh;
   }
 }
 
@@ -2620,11 +2620,10 @@ background-color: transparent;
   position: absolute;
   position: fixed;
   z-index: 2;
-  top: 119vh;
   left: 100%;
   width: 550px;
-  height: 300px;
-  transform: translate(-50%, -50%);
+  bottom: 15px;
+  transform: translate(-50%, 0%);
   transition: 0.2s ease;
   opacity: 1;
 }

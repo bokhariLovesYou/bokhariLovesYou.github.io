@@ -3,6 +3,10 @@ html {
 }
 
 
+.back_to_top {
+  display: none !important;
+}
+
 #resume {
   height: 100vh;
   width: 100%;
@@ -675,6 +679,7 @@ height: 100%;
   background-repeat-y: initial;
   image-rendering: pixelated;
   transition: 0.1s ease;
+  min-height: 100vh;
 }
 
 .hide {
@@ -2615,7 +2620,7 @@ background-color: transparent;
 
 .back_to_top {
 /*  bottom: 200px;*/
-  display: block;
+  display: block !important;
   filter: invert();
   position: absolute;
   position: fixed;

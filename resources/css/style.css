@@ -2887,7 +2887,7 @@ background-color: transparent;
 
     .text_2_div {
       left: 100px;
-      top: 250px;
+      top: 35%;
     }
 
     .text_2 {
@@ -2961,6 +2961,8 @@ background-color: transparent;
     .connect-top {
       left: 75%;
     }
+
+
  }
 
  @media (min-width: 1400px) {

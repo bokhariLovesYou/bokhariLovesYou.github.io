@@ -21,6 +21,7 @@ body {
   max-width: 340px;
   margin: 0 auto;
   margin-top: 20px;
+/*  min-height: 50%;*/
 /*  width: 1000px;*/
 /*  height: 1000px;*/
 }
@@ -184,3 +185,9 @@ body {
     border-radius: 20px;
     }
 }
+
+/*@media (max-height: 500px) {
+  #wrapper {
+    height: 100vh;
+  }
+}*/

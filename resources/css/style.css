@@ -2999,7 +2999,7 @@ background-color: transparent;
     }
   }
 
-@media (max-device-aspect-ratio: 3/4) {
+/*@media (max-device-aspect-ratio: 3/4) {
 
   .wrapper,
   #large-header {
@@ -3023,9 +3023,9 @@ background-color: transparent;
   #large-header {
   height: calc(100vw * 1.778 - 9%);
   }
-}
+}*/
 
-@media (max-height: 457px) {
+/*@media (max-height: 457px) {*/
 /*  .text_2 {
     font-size: 90px;
     line-height: 70px;

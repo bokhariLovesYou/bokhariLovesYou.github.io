@@ -48,7 +48,7 @@ $(document).ready(function() {
 
   var the_game = setInterval(function() {
 
-     if (parseInt(monster_3.css("top")) >= 600 && !monster_3.hasClass("class_1") || (parseInt(monster_2.css("top")) >= 600 && !monster_2.hasClass("class_1")) || (parseInt(monster_1.css("top")) >= 600 && !monster_1.hasClass("class_1")) || (parseInt(monster_4.css("top")) >= 600 && !monster_4.hasClass("class_1")) || (parseInt(monster_5.css("top")) >= 600 && !monster_5.hasClass("class_1"))) {
+     if (parseInt(monster_3.css("top")) >= wrapper_height && !monster_3.hasClass("class_1") || (parseInt(monster_2.css("top")) >= wrapper_height && !monster_2.hasClass("class_1")) || (parseInt(monster_1.css("top")) >= wrapper_height && !monster_1.hasClass("class_1")) || (parseInt(monster_4.css("top")) >= wrapper_height && !monster_4.hasClass("class_1")) || (parseInt(monster_5.css("top")) >= wrapper_height && !monster_5.hasClass("class_1"))) {
       stop_the_game();
     } else {
 

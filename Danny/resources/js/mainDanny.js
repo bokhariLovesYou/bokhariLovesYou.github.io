@@ -1,6 +1,45 @@
 
 $(document).ready(function() {
 
+$(function(){
+
+  var $w = $(window),
+      $background = $('.wrapper-Y');
+
+  // Fix background image jump on mobile
+  if ((/Android|iPhone|iPad|iPod|BlackBerry/i).test(navigator.userAgent || navigator.vendor || window.opera)) {
+    $background.css({'top': 'auto', 'bottom': 0});
+
+    $w.resize(sizeBackground);
+    sizeBackground();
+  }
+
+  function sizeBackground() {
+     $background.height(screen.height);
+  }
+});
+
+$(function(){
+
+  var $w = $(window),
+      $background = $('.wrapper-new-page');
+
+  // Fix background image jump on mobile
+  if ((/Android|iPhone|iPad|iPod|BlackBerry/i).test(navigator.userAgent || navigator.vendor || window.opera)) {
+    $background.css({'top': 'auto', 'bottom': 0});
+
+    $w.resize(sizeBackground);
+    sizeBackground();
+  }
+
+  function sizeBackground() {
+     $background.height(screen.height);
+  }
+});
+
+
+
+
   $("#s1").addClass("show");
 
   setInterval(function() {

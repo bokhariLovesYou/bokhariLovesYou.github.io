@@ -79,6 +79,7 @@ body {
   left: 50%;
   margin-left: -140px;
   top: 10%;
+/*  max-height: 500px;*/
 /*  display: none;*/
 }
 
@@ -403,7 +404,7 @@ hr {
   position: relative;
   right: 20px;
   top: 50px;
-  background: url("../images/bg-2-danny.jpg");
+  background: url("../images/bg-2-danny_01.jpg");
   background-size: cover;
   background-position: 50% 50%;
   filter: invert(100%);
@@ -425,7 +426,7 @@ hr {
   position: relative;
   bottom: 300px;
   left: 70%;
-  background: url("../images/bg-201-danny.jpg");
+  background: url("../images/bg-201-danny_01.jpg");
   background-size: cover;
   background-position: 50% 50%;
   filter: invert(100%);
@@ -460,7 +461,7 @@ hr {
   position: relative;
   right: 20px;
   top: 50px;
-  background: url("../images/bg-3-danny.jpg");
+  background: url("../images/bg-3-danny_01.jpg");
   background-size: cover;
   background-position: 50% 50%;
 /*  filter: invert(100%);*/
@@ -479,7 +480,7 @@ hr {
   position: relative;
   bottom: 300px;
   left: 40%;
-  background: url("../images/bg-301-danny.jpg");
+  background: url("../images/bg-301-danny_01.jpg");
   background-size: cover;
   background-position: 50% 50%;
 /*  background-position-y: 80px;*/
@@ -495,7 +496,7 @@ hr {
   position: relative;
   bottom: 750px;
   left: 70%;
-  background: url("../images/bg-302-danny.jpg");
+  background: url("../images/bg-302-danny_01.jpg");
   background-size: cover;
   background-position: 50% 50%;
   transition: 0.1s ease;

@@ -410,7 +410,7 @@ $("body").swipe({
         $(formMessages).removeClass('error');
         $(formMessages).addClass('success');
         // Set the message text.
-        $(formMessages).text(response);
+        $(formMessages).text("Oops, gitHub doesnt provide to host server-side languages. However, I'll get a new domain, soon. Sorry :(");
         // Clear the form.
         $("#name").val('');
         $("#email").val('');

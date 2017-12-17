@@ -22,18 +22,36 @@ $(function(){
 $(function(){
 
   var $w = $(window),
-      $background = $('.wrapper-new-page');
+      $background_1 = $('.wrapper-new-page');
+
+  // Fix background image jump on mobile
+  if ((/Android|iPhone|iPad|iPod|BlackBerry/i).test(navigator.userAgent || navigator.vendor || window.opera)) {
+    $background.css({'top': 'auto', 'bottom': 0});
+
+    $w.resize_1(sizeBackground);
+    sizeBackground_1();
+  }
+
+  function sizeBackground_1() {
+     $background_1.height(screen.height);
+  }
+});
+
+$(function(){
+
+  var $w = $(window),
+      $background_2 = $('.wrapper-cover');
 
   // Fix background image jump on mobile
   if ((/Android|iPhone|iPad|iPod|BlackBerry/i).test(navigator.userAgent || navigator.vendor || window.opera)) {
     $background.css({'top': 'auto', 'bottom': 0});
 
     $w.resize(sizeBackground);
-    sizeBackground();
+    sizeBackground_2();
   }
 
-  function sizeBackground() {
-     $background.height(screen.height);
+  function sizeBackground_2() {
+     $background_2.height(screen.height);
   }
 });
 

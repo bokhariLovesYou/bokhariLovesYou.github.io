@@ -362,20 +362,25 @@
         <div class="connect mt-4 container">
         <p class="text-center connectText" id="connect">Connect with me</p>
 
+        <div id="form-messages"></div>
+
         <div class="container-2">
-        <form id="fr1">
+        <form id="ajax-contact" method="post" action="mailer.php">
           <div class="form-group">
-            <label for="formGroupExampleInput">Name</label>
-            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" name="name" required>
           </div>
-          <div class="form-group eMail">
-            <label for="formGroupExampleInput2">E-mail</label>
-            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="">
+
           <div class="form-group">
-            <label for="formGroupExampleInput">Message</label>
-            <textarea class="form-control message" id="formGroupExampleInput" placeholder=""></textarea>
+            <label for="email">E-mail</label>
+            <input type="email" class="form-control" id="email" name="email" required>
           </div>
-            <button type="button" class="btn btn" id="bt1" value="click">S END</button>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control message" id="message" name="message" required></textarea>
+          </div>
+            <button type="submit" class="btn btn mb-3" id="bt1" value="click">S END</button>
           </div>
         </form>
         </div>

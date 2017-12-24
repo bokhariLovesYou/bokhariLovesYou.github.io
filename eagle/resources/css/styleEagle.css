@@ -8,6 +8,21 @@ body {
   display: none;
 }
 
+.controls {
+  font-size: 15px;
+}
+
+#controls {
+  position: fixed;
+  border: 3px solid orange;
+  padding: 10px;
+  text-align: center;
+  border-radius: 15px;
+  margin-top: 10px;
+  display: none;
+  margin-left: 20px;
+}
+
 #container {
   position: relative;
   height: 400px;
@@ -93,6 +108,15 @@ body {
     border-radius: 20px;
     }
 }
+
+@media (min-width: 900px) {
+
+  #controls {
+    display: block;
+  }
+
+}
+
 
 
 

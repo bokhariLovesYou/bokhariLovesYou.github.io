@@ -22,7 +22,7 @@ body,html {
   -o-background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
-  background-attachment: fixed;
+/*  background-attachment: fixed;*/
 }
 
 .tint:before {
@@ -275,7 +275,7 @@ display: none;
 .third_section {
   background: url("../images/small.jpg");
   background-size: cover;
-  background-attachment: fixed;
+/*  background-attachment: fixed;*/
   background-position-y: 30%;
   opacity: 1;
   height: 450px;
@@ -336,7 +336,7 @@ display: none;
   background: url("../images/image3.jpg");
   background-size: cover;
   background-position: 50% 50%;
-  background-attachment: fixed;
+/*  background-attachment: fixed;*/
   transition: 0.1s ease;
 }
 
@@ -344,7 +344,7 @@ display: none;
   background: url("../images/78.jpg");
   background-size: cover;
   background-position: 50% 50%;
-  background-attachment: fixed;
+/*  background-attachment: fixed;*/
   transition: 0.1s ease;
 }
 
@@ -352,7 +352,7 @@ display: none;
   background: url("../images/three.jpg");
   background-size: cover;
   background-position: 50% 50%;
-  background-attachment: fixed;
+/*  background-attachment: fixed;*/
   transition: 0.1s ease;
 }
 
@@ -360,7 +360,7 @@ display: none;
   background: url("../images/00.jpg");
   background-size: cover;
   background-position: 80% 50%;
-  background-attachment: fixed;
+/*  background-attachment: fixed;*/
   transition: 0.1s ease;
 }
 
@@ -368,7 +368,7 @@ display: none;
   background: url("http://warsaw.leica-gallery.pl/wp-content/uploads/sites/2/2016/08/Maciej-Dakowicz1.jpg");
   background-size: cover;
   background-position: 50% 50%;
-  background-attachment: fixed;
+/*  background-attachment: fixed;*/
   transition: 0.1s ease;
 }
 
@@ -376,7 +376,7 @@ display: none;
   background: url("https://www.worldphoto.org/sites/default/files/199225_214955_0_%20%C2%A9%20Dina%20Alfasi%2C%20Israel%2C%20Shortlist%2C%20Open%20Competition%2C%20Street%20Photography%2C%202017%20Sony%20World%20Photography%20Awards.jpg");
   background-size: cover;
   background-position: 50% 50%;
-  background-attachment: fixed;
+/*  background-attachment: fixed;*/
   transition: 0.1s ease;
 }
 

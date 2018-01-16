@@ -11,7 +11,7 @@ body,html {
 
 
 .tint {
-  min-height: 720px;
+  height: 720px;
   width: 100%;
   background: url("../images/shorpy.jpg");
   background-size: cover;
@@ -278,7 +278,7 @@ display: none;
   background-attachment: fixed;
   background-position-y: 30%;
   opacity: 1;
-  min-height: 450px;
+  height: 450px;
   position: relative;
 }
 

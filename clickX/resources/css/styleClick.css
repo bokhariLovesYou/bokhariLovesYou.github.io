@@ -45,7 +45,7 @@ body,html {
 
 #absolut {
   position: absolute;
-  top: 50%;
+  top: 33%;
 }
 
 .heading {
@@ -432,7 +432,7 @@ display: none;
   margin-top: 50px;
   border: 10px solid #fff;
   padding: 20px;
-  max-width: 230px;
+  max-width: 280px;
   margin-left: auto;
   margin-right: auto;
 

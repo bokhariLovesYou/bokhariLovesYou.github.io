@@ -413,6 +413,11 @@ display: none;
   text-align: center;
   background-color: #000;
   padding: 50px;
+
+}
+
+#footer_list {
+  padding: 0;
 }
 
 .footer_links {
@@ -462,6 +467,28 @@ hr {
 /**/
 
 @media (min-width: 768px) {
+
+  .tint {
+    background-attachment: fixed;
+  }
+
+  #third_section {
+    background-attachment: fixed;
+  }
+
+  .reel_One,
+  .reel_Two,
+  .reel_Three,
+  .reel_Four,
+  .reel_Five,
+  .reel_Six {
+    background-attachment: fixed;
+  }
+
+  .reel_Six {
+    background-position: 10% 90%;
+  }
+
   .reel_One {
     margin-top: 0;
   }

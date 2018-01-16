@@ -25,7 +25,12 @@ $(function(){
     sizeBackground();
   }
 
-  $(function(){
+    function sizeBackground() {
+     $background.height(screen.height);
+  }
+});
+
+$(function(){
 
   var $w = $(window),
       $background = $('#third_section');
@@ -38,6 +43,10 @@ $(function(){
     sizeBackground();
   }
 
+    function sizeBackground() {
+     $background.height(screen.height);
+  }
+});
 
 $('#first_section').jarallax({
     speed: 0.2

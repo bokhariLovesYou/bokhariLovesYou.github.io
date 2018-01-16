@@ -12,6 +12,33 @@ $(document).ready(function() {
     // return false;
   });
 
+$(function(){
+
+  var $w = $(window),
+      $background = $('#first_section');
+
+  // Fix background image jump on mobile
+  if ((/Android|iPhone|iPad|iPod|BlackBerry/i).test(navigator.userAgent || navigator.vendor || window.opera)) {
+    $background.css({'top': 'auto', 'bottom': 0});
+
+    $w.resize(sizeBackground);
+    sizeBackground();
+  }
+
+  $(function(){
+
+  var $w = $(window),
+      $background = $('#third_section');
+
+  // Fix background image jump on mobile
+  if ((/Android|iPhone|iPad|iPod|BlackBerry/i).test(navigator.userAgent || navigator.vendor || window.opera)) {
+    $background.css({'top': 'auto', 'bottom': 0});
+
+    $w.resize(sizeBackground);
+    sizeBackground();
+  }
+
+
 $('#first_section').jarallax({
     speed: 0.2
 });
@@ -43,5 +70,7 @@ $('.reel_Five').jarallax({
 $('.reel_Six').jarallax({
     speed: 0.2
 });
+
+
 
 });

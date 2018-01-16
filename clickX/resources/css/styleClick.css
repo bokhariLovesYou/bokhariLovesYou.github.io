@@ -432,10 +432,11 @@ display: none;
   margin-top: 50px;
   border: 10px solid #fff;
   padding: 20px;
-  max-width: 280px;
+  padding-right: 50px;
+  padding-left: -50px;
+  max-width: 230px;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 hr {

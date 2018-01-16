@@ -432,8 +432,6 @@ display: none;
   margin-top: 50px;
   border: 10px solid #fff;
   padding: 20px;
-  padding-right: 50px;
-  padding-left: -50px;
   max-width: 230px;
   margin-left: auto;
   margin-right: auto;
@@ -510,6 +508,10 @@ hr {
     top: 43px;
   }
 
+}
+
+@media (max-width: 500px) {
+  background-attachment:
 }
 
 @media (min-width: 1200px) {

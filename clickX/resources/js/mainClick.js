@@ -12,36 +12,36 @@ $(document).ready(function() {
     // return false;
   });
 
-$('#first_section').jarallax({
-    speed: 0.2
+$('#first_section').stellar({
+  scrollProperty: 'transform'
 });
 
-$('#third_section').jarallax({
-    speed: 0.2
+$('#third_section').stellar({
+  scrollProperty: 'transform'
 });
 
-$('.reel_One').jarallax({
-    speed: 0.2
+$('.reel_One').stellar({
+  scrollProperty: 'transform'
 });
 
-$('.reel_Two').jarallax({
-    speed: 0.2
+$('.reel_Two').stellar({
+  scrollProperty: 'transform'
 });
 
-$('.reel_Three').jarallax({
-    speed: 0.2
+$('.reel_Three').stellar({
+  scrollProperty: 'transform'
 });
 
-$('.reel_Four').jarallax({
-    speed: 0.2
+$('.reel_Four').stellar({
+  scrollProperty: 'transform'
 });
 
-$('.reel_Five').jarallax({
-    speed: 0.2
+$('.reel_Five').stellar({
+  scrollProperty: 'transform'
 });
 
-$('.reel_Six').jarallax({
-    speed: 0.2
+$('.reel_Six').stellar({
+  scrollProperty: 'transform'
 });
 
 
